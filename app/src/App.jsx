@@ -22,10 +22,13 @@ function App() {
   return (
     <>
       <nav className="top-nav">
-        <NavLink to="/" end className="top-nav-brand">Pokepedia</NavLink>
-        <NavLink to="/team" className={({ isActive }) => isActive ? 'top-nav-link active' : 'top-nav-link'}>
-          Team Builder
-        </NavLink>
+        <div className="top-nav-links">
+          <NavLink to="/" end className="top-nav-brand">Pokepedia</NavLink>
+          <NavLink to="/team" className={({ isActive }) => isActive ? 'top-nav-link active' : 'top-nav-link'}>
+            Team Builder
+          </NavLink>
+        </div>
+        <span className="top-nav-tagline">GEN I–VII · 801 ENTRIES</span>
       </nav>
       <Routes>
         <Route path="/" element={<Home pokemonList={pokemonList} />} />

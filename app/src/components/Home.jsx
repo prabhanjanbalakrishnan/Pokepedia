@@ -24,10 +24,12 @@ export default function Home({ pokemonList }) {
       <h1>Pokepedia</h1>
       <FilterBar filters={filters} onChange={setFilters} />
       <p className="result-count">{filtered.length} Pokémon</p>
-      <div className="pokemon-grid">
-        {filtered.map((p) => (
-          <PokemonCard key={p.id} pokemon={p} />
-        ))}
+      <div className="screen">
+        <div className="pokemon-grid">
+          {filtered.map((p) => (
+            <PokemonCard key={p.id} pokemon={p} />
+          ))}
+        </div>
       </div>
     </div>
   )

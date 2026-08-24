@@ -2,38 +2,82 @@
   text-align: center;
   margin-top: 80px;
   font-size: 18px;
+  font-family: var(--font-mono);
 }
 
-/* ---------- top nav ---------- */
+/* ---------- top nav / device header ---------- */
 
 .top-nav {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px 20px 0;
+  padding: 20px 20px 16px;
+  border-bottom: 3px solid var(--shell-line);
+}
+
+.top-nav-links {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+}
+
+.top-nav-tagline {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: var(--text);
 }
 
 .top-nav-brand {
-  font-size: 18px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 22px;
   font-weight: 700;
+  color: var(--text-h);
+}
+
+.top-nav-brand::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+  flex-shrink: 0;
 }
 
 .top-nav-link {
-  font-size: 14px;
-  opacity: 0.65;
+  font-family: var(--font-mono);
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text);
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
 
 .top-nav-link:hover {
-  opacity: 1;
+  color: var(--text-h);
 }
 
 .top-nav-link.active {
-  opacity: 1;
-  border-bottom-color: currentColor;
+  color: var(--text-h);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- shared "screen" panel ---------- */
+
+.screen {
+  background: var(--screen);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.18), inset 0 0 0 3px var(--screen-deep);
 }
 
 /* ---------- Home / grid ---------- */
@@ -55,16 +99,17 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .filter-bar select,
 .filter-bar .search-input {
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  font-family: var(--font-body);
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 2px solid var(--shell-line);
   background: var(--card-bg);
-  color: var(--text);
+  color: var(--text-h);
   font-size: 14px;
 }
 
@@ -75,16 +120,15 @@
 .result-count {
   text-align: center;
   color: var(--text);
-  opacity: 0.6;
-  margin: 12px 0;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  margin: 10px 0 14px;
 }
 
 .pokemon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 16px;
-  margin-top: 16px;
+  gap: 14px;
 }
 
 .pokemon-card {
@@ -93,16 +137,16 @@
   flex-direction: column;
   align-items: center;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: 2px solid var(--shell-line);
   border-radius: 12px;
   padding: 16px 10px 12px;
   text-align: center;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
 .pokemon-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent);
 }
 
 .pokemon-card img {
@@ -119,14 +163,16 @@
 
 .pokemon-card-id {
   align-self: flex-start;
-  font-size: 12px;
-  opacity: 0.5;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text);
 }
 
 .pokemon-card-gen {
   margin-top: 8px;
-  font-size: 11px;
-  opacity: 0.55;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text);
 }
 
 .type-badge-row {
@@ -148,6 +194,7 @@
 
 .rarity-badge {
   display: inline-block;
+  font-family: var(--font-body);
   font-size: 12px;
   font-weight: 600;
   padding: 3px 10px;
@@ -155,7 +202,7 @@
 }
 
 .rarity-common {
-  background: #d9d9e0;
+  background: #d9d9c9;
   color: #333;
 }
 
@@ -175,11 +222,14 @@
 .back-link {
   display: inline-block;
   margin-bottom: 16px;
-  opacity: 0.7;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  font-size: 17px;
+  color: var(--text-h);
+  opacity: 0.85;
 }
 
 .back-link:hover {
+  color: var(--accent);
   opacity: 1;
 }
 
@@ -188,15 +238,15 @@
   gap: 28px;
   align-items: center;
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 28px;
+  border: 2px solid var(--shell-line);
+  border-radius: 14px;
+  padding: 24px;
   flex-wrap: wrap;
 }
 
 .detail-image {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
   flex-shrink: 0;
   margin: 0 auto;
@@ -208,13 +258,14 @@
 }
 
 .detail-id {
-  font-size: 14px;
-  opacity: 0.5;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--text);
 }
 
 .detail-info h1 {
-  margin: 4px 0 12px;
-  font-size: 32px;
+  margin: 2px 0 12px;
+  font-size: 30px;
   text-transform: capitalize;
 }
 
@@ -223,57 +274,76 @@
   grid-template-columns: auto 1fr;
   gap: 6px 16px;
   margin-top: 18px;
-  font-size: 15px;
+  font-family: var(--font-mono);
+  font-size: 16px;
 }
 
 .detail-facts dt {
-  opacity: 0.6;
+  color: var(--text);
 }
 
 .detail-facts dd {
   margin: 0;
   font-weight: 600;
+  color: var(--text-h);
 }
 
 .weaknesses-section {
-  margin-top: 28px;
+  margin-top: 26px;
 }
 
 .weaknesses-section h2 {
-  font-size: 20px;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
   margin-bottom: 10px;
 }
 
 .evolution-section {
-  margin-top: 32px;
+  margin-top: 26px;
+}
+
+.evolution-section h2 {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 10px;
 }
 
 .no-evolution {
-  opacity: 0.6;
-  font-style: italic;
+  font-family: var(--font-mono);
+  font-size: 17px;
+  color: var(--text);
+  font-style: normal;
 }
 
 .evolution-chain {
   overflow-x: auto;
-  padding: 12px 0;
+  padding: 4px 0 10px;
 }
 
 .evolution-branch {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 .evolution-node-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 10px;
+  gap: 2px;
+  padding: 8px 10px;
   border-radius: 10px;
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  min-width: 90px;
+  border: 2px solid var(--shell-line);
+  min-width: 84px;
 }
 
 .evolution-node-link:hover {
@@ -281,26 +351,27 @@
 }
 
 .evolution-node-link img {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
 }
 
 .evolution-node-link span {
-  font-size: 13px;
+  font-family: var(--font-display);
+  font-size: 12px;
   text-transform: capitalize;
 }
 
 .evolution-arrow {
-  font-size: 20px;
-  opacity: 0.4;
+  font-size: 18px;
+  color: var(--text);
   flex-shrink: 0;
 }
 
 .evolution-children {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 /* ---------- Team builder ---------- */
@@ -319,8 +390,9 @@
 
 .team-subtitle {
   text-align: center;
-  opacity: 0.65;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  color: var(--text);
+  font-size: 15px;
   margin-bottom: 24px;
 }
 
@@ -334,7 +406,7 @@
 .team-slot {
   position: relative;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: 2px solid var(--shell-line);
   border-radius: 12px;
   padding: 14px 8px 10px;
   display: flex;
@@ -346,8 +418,10 @@
 
 .team-slot.empty {
   justify-content: center;
-  opacity: 0.4;
-  font-size: 13px;
+  font-family: var(--font-mono);
+  color: var(--text);
+  opacity: 0.6;
+  font-size: 14px;
   border-style: dashed;
 }
 
@@ -358,6 +432,7 @@
 }
 
 .team-slot-name {
+  font-family: var(--font-display);
   font-size: 13px;
   font-weight: 600;
   text-transform: capitalize;
@@ -372,8 +447,8 @@
   height: 20px;
   border-radius: 50%;
   border: none;
-  background: var(--border);
-  color: var(--text);
+  background: var(--shell-line);
+  color: var(--text-h);
   cursor: pointer;
   line-height: 1;
   font-size: 14px;
@@ -391,11 +466,12 @@
 
 .team-add input {
   width: 100%;
+  font-family: var(--font-body);
   padding: 10px 14px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  border-radius: 10px;
+  border: 2px solid var(--shell-line);
   background: var(--card-bg);
-  color: var(--text);
+  color: var(--text-h);
   font-size: 14px;
 }
 
@@ -407,8 +483,8 @@
   list-style: none;
   margin: 6px 0 0;
   padding: 0;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  border: 2px solid var(--shell-line);
+  border-radius: 10px;
   background: var(--card-bg);
   overflow: hidden;
 }
@@ -418,7 +494,7 @@
   align-items: center;
   gap: 10px;
   padding: 8px 12px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--shell-line);
 }
 
 .team-search-results li:last-child {
@@ -438,12 +514,13 @@
 }
 
 .team-search-results button {
+  font-family: var(--font-body);
   font-size: 13px;
   padding: 4px 12px;
   border-radius: 6px;
-  border: 1px solid var(--border);
+  border: 2px solid var(--shell-line);
   background: transparent;
-  color: var(--text);
+  color: var(--text-h);
   cursor: pointer;
 }
 
@@ -454,8 +531,9 @@
 
 .team-empty-state {
   text-align: center;
-  opacity: 0.6;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  color: var(--text);
+  font-size: 16px;
 }
 
 .team-analysis {
@@ -465,7 +543,12 @@
 }
 
 .team-analysis h2 {
-  font-size: 18px;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
   margin-bottom: 10px;
 }
 
@@ -485,8 +568,9 @@
 }
 
 .weakness-count {
-  font-size: 13px;
-  opacity: 0.7;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text);
 }
 
 .type-badge-muted {
@@ -495,7 +579,8 @@
 
 .coverage-gap {
   margin-top: 10px;
-  font-size: 13px;
-  opacity: 0.75;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text);
   text-transform: capitalize;
 }
