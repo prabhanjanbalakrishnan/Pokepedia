@@ -43,3 +43,7 @@ python3 app/scripts/build_data.py
 ```
 
 See [CLAUDE.md](./CLAUDE.md) for a deeper technical breakdown of the data pipeline and app architecture.
+
+## License
+
+The code in this repository is licensed under the [MIT License](./LICENSE). Pokémon, Pokémon character names, and associated imagery are trademarks and copyrights of Nintendo, Game Freak, and Creatures Inc. This is an unofficial, non-commercial fan project not affiliated with or endorsed by them.
