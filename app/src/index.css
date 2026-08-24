@@ -7,6 +7,7 @@
   --text-h: #232017;
   --text: #6b6a53;
   --accent: #d1495b;
+  --accent-ink: #fff6ee;
   --card-bg: #f7f5ea;
   --font-display: 'Chakra Petch', system-ui, sans-serif;
   --font-mono: 'VT323', ui-monospace, monospace;
@@ -32,6 +33,7 @@
     --text-h: #e9e7da;
     --text: #8f9382;
     --accent: #ff6b52;
+    --accent-ink: #1a0e0a;
     --card-bg: #1a1c16;
   }
 }

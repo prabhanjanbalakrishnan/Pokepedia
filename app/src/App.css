@@ -21,8 +21,8 @@
 
 .top-nav-links {
   display: flex;
-  align-items: baseline;
-  gap: 22px;
+  align-items: center;
+  gap: 18px;
 }
 
 .top-nav-tagline {
@@ -52,23 +52,35 @@
   flex-shrink: 0;
 }
 
-.top-nav-link {
-  font-family: var(--font-mono);
-  font-size: 17px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--text);
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
+.top-nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--accent-ink);
+  background: var(--accent);
+  padding: 8px 16px;
+  border-radius: 999px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
 }
 
-.top-nav-link:hover {
-  color: var(--text-h);
+.top-nav-cta::after {
+  content: '→';
 }
 
-.top-nav-link.active {
-  color: var(--text-h);
-  border-bottom-color: var(--accent);
+.top-nav-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.14);
+  filter: brightness(1.06);
+}
+
+.top-nav-cta.active {
+  filter: brightness(0.92);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: none;
 }
 
 /* ---------- shared "screen" panel ---------- */

@@ -24,8 +24,8 @@ function App() {
       <nav className="top-nav">
         <div className="top-nav-links">
           <NavLink to="/" end className="top-nav-brand">Pokepedia</NavLink>
-          <NavLink to="/team" className={({ isActive }) => isActive ? 'top-nav-link active' : 'top-nav-link'}>
-            Team Builder
+          <NavLink to="/team" className={({ isActive }) => isActive ? 'top-nav-cta active' : 'top-nav-cta'}>
+            Build Your Team!
           </NavLink>
         </div>
         <span className="top-nav-tagline">GEN I–VII · 801 ENTRIES</span>
