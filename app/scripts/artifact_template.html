@@ -431,14 +431,60 @@
     align-items: center;
     text-align: center;
     min-height: 120px;
+    transition: border-color 0.1s ease, opacity 0.1s ease;
   }
 
   .team-slot.empty {
     justify-content: center;
-    opacity: 0.4;
-    font-family: var(--font-mono);
-    font-size: 16px;
     border-style: dashed;
+    padding: 8px;
+  }
+
+  .team-slot.empty.active {
+    z-index: 5;
+    border-style: solid;
+    border-color: var(--accent);
+  }
+
+  .team-slot:not(.empty) {
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .team-slot.dragging {
+    opacity: 0.4;
+    cursor: grabbing;
+  }
+
+  .team-slot.drag-over {
+    border-color: var(--accent);
+    border-style: dashed;
+  }
+
+  .team-slot-add {
+    width: 100%;
+    height: 100%;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    font-family: var(--font-mono);
+    color: var(--ink-soft);
+    opacity: 0.8;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .team-slot-add:hover { opacity: 1; color: var(--accent); }
+
+  .team-slot-add-icon {
+    font-family: var(--font-display);
+    font-size: 20px;
+    line-height: 1;
   }
 
   .team-slot img { width: 56px; height: 56px; }
@@ -468,58 +514,53 @@
 
   .team-slot-remove:hover { background: var(--accent); color: #fff; }
 
-  .team-add { position: relative; margin-bottom: 26px; }
-
-  .team-add input {
+  .team-slot-search {
     width: 100%;
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 13px;
     color: var(--ink);
-    background: var(--card-bg);
+    background: var(--shell);
     border: 2px solid var(--shell-line);
-    border-radius: 10px;
-    padding: 9px 14px;
+    border-radius: 8px;
+    padding: 8px 10px;
   }
 
-  .team-add input:disabled { opacity: 0.6; }
-
-  .team-search-results {
-    list-style: none;
+  .team-slot-results {
+    position: absolute;
+    top: 100%;
+    left: -2px;
+    right: -2px;
     margin: 6px 0 0;
     padding: 0;
-  }
-
-  .team-search-results:not(:empty) {
+    list-style: none;
     border: 2px solid var(--shell-line);
     border-radius: 10px;
     background: var(--card-bg);
     overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   }
 
-  .team-search-results li {
+  .team-slot-results li { border-bottom: 1px solid var(--shell-line); }
+  .team-slot-results li:last-child { border-bottom: none; }
+
+  .team-slot-results button {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 8px 12px;
-    border-bottom: 1px solid var(--shell-line);
-  }
-
-  .team-search-results li:last-child { border-bottom: none; }
-  .team-search-results img { width: 30px; height: 30px; }
-  .team-search-results span { flex: 1; font-size: 14px; text-transform: capitalize; }
-
-  .team-search-results button {
-    font-family: var(--font-body);
-    font-size: 13px;
-    padding: 4px 12px;
-    border-radius: 6px;
-    border: 2px solid var(--shell-line);
+    padding: 8px 10px;
     background: transparent;
-    color: var(--ink);
+    border: none;
     cursor: pointer;
+    text-align: left;
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    text-transform: capitalize;
   }
 
-  .team-search-results button:hover { border-color: var(--accent); color: var(--accent); }
+  .team-slot-results button:hover { background: var(--shell); color: var(--accent); }
+  .team-slot-results img { width: 26px; height: 26px; }
 
   .weakness-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
   .weakness-list li { display: flex; align-items: center; gap: 10px; }
@@ -791,13 +832,17 @@
 
   const TEAM_STORAGE_KEY = 'pokepedia-team';
   const MAX_TEAM_SIZE = 6;
+  const DRAG_THRESHOLD = 8;
 
   function loadTeam() {
     try {
       const raw = localStorage.getItem(TEAM_STORAGE_KEY);
-      return raw ? JSON.parse(raw) : [];
+      const parsed = raw ? JSON.parse(raw) : [];
+      const ids = Array.isArray(parsed) ? parsed.slice(0, MAX_TEAM_SIZE) : [];
+      while (ids.length < MAX_TEAM_SIZE) ids.push(null);
+      return ids.map((id) => (typeof id === 'number' ? id : null));
     } catch {
-      return [];
+      return Array(MAX_TEAM_SIZE).fill(null);
     }
   }
 
@@ -812,76 +857,148 @@
   let teamIds = loadTeam();
   let teamMounted = false;
   let teamRosterEl = null;
-  let teamAddInputEl = null;
-  let teamResultsEl = null;
   let teamAnalysisEl = null;
+  let activeSlotIndex = null;
   let teamSearch = '';
   let teamSearchDebounce = null;
+  let activeSlotResultsEl = null;
+  // dragState.index/overIndex/moved/startX/startY - a plain object rather
+  // than separate vars so the pointermove/pointerup listeners (attached
+  // once, below) always read the current values via closure.
+  let dragState = { index: null, overIndex: null, moved: false, startX: 0, startY: 0 };
 
   function currentTeam() {
-    return teamIds.map((id) => byId.get(id)).filter(Boolean);
+    return teamIds.map((id) => (id ? byId.get(id) : null));
   }
 
-  function addToTeam(id) {
-    if (teamIds.length >= MAX_TEAM_SIZE || teamIds.includes(id)) return;
-    teamIds = [...teamIds, id];
+  function fillSlot(index, id) {
+    teamIds = teamIds.map((existing, i) => (i === index ? id : existing));
     saveTeam(teamIds);
+    activeSlotIndex = null;
     teamSearch = '';
     updateTeam();
   }
 
-  function removeFromTeam(id) {
-    teamIds = teamIds.filter((tid) => tid !== id);
+  function removeFromSlot(index) {
+    teamIds = teamIds.map((existing, i) => (i === index ? null : existing));
     saveTeam(teamIds);
     updateTeam();
   }
 
-  function teamSlotEl(p) {
-    if (!p) {
-      return el('div', { class: 'team-slot empty' }, [document.createTextNode('Empty slot')]);
+  function swapSlots(a, b) {
+    const next = [...teamIds];
+    const tmp = next[a];
+    next[a] = next[b];
+    next[b] = tmp;
+    teamIds = next;
+    saveTeam(teamIds);
+    updateTeam();
+  }
+
+  function toggleSlot(index) {
+    activeSlotIndex = activeSlotIndex === index ? null : index;
+    teamSearch = '';
+    updateTeamRoster();
+  }
+
+  function closeSlotPicker() {
+    if (activeSlotIndex === null) return;
+    activeSlotIndex = null;
+    teamSearch = '';
+    updateTeamRoster();
+  }
+
+  function startDrag(index) {
+    return (e) => {
+      if (e.target.closest('.team-slot-remove')) return;
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      dragState = { index, overIndex: null, moved: false, startX: e.clientX, startY: e.clientY };
+    };
+  }
+
+  function renderActiveSlotResults() {
+    if (!activeSlotResultsEl) return;
+    activeSlotResultsEl.innerHTML = '';
+    const q = teamSearch.trim().toLowerCase();
+    if (!q) return;
+    POKEMON.filter((p) => p.name.toLowerCase().includes(q) && !teamIds.includes(p.id))
+      .slice(0, 8)
+      .forEach((p) => {
+        activeSlotResultsEl.appendChild(el('li', {}, [
+          el('button', { onclick: () => fillSlot(activeSlotIndex, p.id) }, [imgFor(p.id), el('span', {}, [document.createTextNode(p.name)])]),
+        ]));
+      });
+  }
+
+  function teamSlotEl(p, index) {
+    const classes = ['team-slot'];
+    if (!p) classes.push('empty');
+    if (index === dragState.index && dragState.moved) classes.push('dragging');
+    if (index === dragState.overIndex && index !== dragState.index && dragState.moved) classes.push('drag-over');
+
+    if (p) {
+      return el('div', {
+        class: classes.join(' '),
+        'data-slot-index': String(index),
+        onpointerdown: startDrag(index),
+      }, [
+        el('button', { class: 'team-slot-remove', 'aria-label': 'Remove ' + p.name, onclick: (e) => { e.stopPropagation(); removeFromSlot(index); } }, [document.createTextNode('×')]),
+        imgFor(p.id),
+        el('div', { class: 'name' }, [document.createTextNode(p.name)]),
+        el('div', { class: 'badges' }, p.types.map((t) => typeBadge(t))),
+      ]);
     }
-    return el('div', { class: 'team-slot' }, [
-      el('button', { class: 'team-slot-remove', 'aria-label': 'Remove ' + p.name, onclick: () => removeFromTeam(p.id) }, [document.createTextNode('×')]),
-      imgFor(p.id),
-      el('div', { class: 'name' }, [document.createTextNode(p.name)]),
-      el('div', { class: 'badges' }, p.types.map((t) => typeBadge(t))),
+
+    if (index === activeSlotIndex) {
+      classes.push('active');
+      const slot = el('div', { class: classes.join(' '), 'data-slot-index': String(index) });
+      const input = el('input', { type: 'text', placeholder: 'Search by name...', class: 'team-slot-search' });
+      input.value = teamSearch;
+      input.addEventListener('input', (e) => {
+        teamSearch = e.target.value;
+        clearTimeout(teamSearchDebounce);
+        teamSearchDebounce = setTimeout(renderActiveSlotResults, 120);
+      });
+      slot.appendChild(input);
+
+      const results = el('ul', { class: 'team-slot-results' });
+      slot.appendChild(results);
+      activeSlotResultsEl = results;
+      renderActiveSlotResults();
+
+      setTimeout(() => input.focus(), 0);
+      return slot;
+    }
+
+    return el('div', { class: classes.join(' '), 'data-slot-index': String(index) }, [
+      el('button', { class: 'team-slot-add', onclick: () => toggleSlot(index) }, [
+        el('span', { class: 'team-slot-add-icon' }, [document.createTextNode('+')]),
+        document.createTextNode('Add Pokémon'),
+      ]),
     ]);
   }
 
   function updateTeamRoster() {
     teamRosterEl.innerHTML = '';
+    activeSlotResultsEl = null;
     const team = currentTeam();
     for (let i = 0; i < MAX_TEAM_SIZE; i++) {
-      teamRosterEl.appendChild(teamSlotEl(team[i]));
+      teamRosterEl.appendChild(teamSlotEl(team[i], i));
     }
     return team;
   }
 
-  function updateTeamSearchResults() {
-    const q = teamSearch.trim().toLowerCase();
-    teamResultsEl.innerHTML = '';
-    if (!q) return;
-    POKEMON.filter((p) => p.name.toLowerCase().includes(q) && !teamIds.includes(p.id))
-      .slice(0, 8)
-      .forEach((p) => {
-        teamResultsEl.appendChild(el('li', {}, [
-          imgFor(p.id),
-          el('span', {}, [document.createTextNode(p.name)]),
-          el('button', { onclick: () => addToTeam(p.id) }, [document.createTextNode('Add')]),
-        ]));
-      });
-  }
-
   function updateTeamAnalysis(team) {
     teamAnalysisEl.innerHTML = '';
-    if (team.length === 0) {
-      teamAnalysisEl.appendChild(el('p', { class: 'no-evo' }, [document.createTextNode('Add a Pokémon to see your team’s strengths and weaknesses.')]));
+    const filled = team.filter(Boolean);
+    if (filled.length === 0) {
+      teamAnalysisEl.appendChild(el('p', { class: 'no-evo' }, [document.createTextNode('Tap an empty slot above to start building your team.')]));
       return;
     }
 
     const weaknessCounts = new Map();
     const coverage = new Set();
-    team.forEach((p) => {
+    filled.forEach((p) => {
       p.weaknesses.forEach((w) => weaknessCounts.set(w.type, (weaknessCounts.get(w.type) || 0) + 1));
       p.strengths.forEach((s) => coverage.add(s.type));
     });
@@ -895,7 +1012,7 @@
     } else {
       const list = el('ul', { class: 'weakness-list' });
       sortedWeaknesses.forEach((w) => {
-        list.appendChild(el('li', {}, [typeBadge(w.type), el('span', { class: 'weakness-count' }, [document.createTextNode(w.count + ' of ' + team.length)])]));
+        list.appendChild(el('li', {}, [typeBadge(w.type), el('span', { class: 'weakness-count' }, [document.createTextNode(w.count + ' of ' + filled.length)])]));
       });
       weakSection.appendChild(list);
     }
@@ -918,11 +1035,7 @@
 
   function updateTeam() {
     const team = updateTeamRoster();
-    updateTeamSearchResults();
     updateTeamAnalysis(team);
-    const full = teamIds.length >= MAX_TEAM_SIZE;
-    teamAddInputEl.disabled = full;
-    teamAddInputEl.placeholder = full ? 'Team is full (6/6)' : 'Search by name to add...';
   }
 
   function renderTeam() {
@@ -930,23 +1043,10 @@
 
     app.innerHTML = '';
     app.appendChild(el('h1', {}, [document.createTextNode('Team Builder')]));
-    app.appendChild(el('p', { class: 'team-subtitle' }, [document.createTextNode('Build a team of up to 6 Pokémon and see how it holds up.')]));
+    app.appendChild(el('p', { class: 'team-subtitle' }, [document.createTextNode('Tap an empty slot to add a Pokémon, or drag a slot to reorder your team.')]));
 
     teamRosterEl = el('div', { class: 'team-roster' });
     app.appendChild(teamRosterEl);
-
-    const addWrap = el('div', { class: 'team-add' });
-    teamAddInputEl = el('input', { type: 'text', placeholder: 'Search by name to add...' });
-    teamAddInputEl.value = teamSearch;
-    teamAddInputEl.addEventListener('input', (e) => {
-      teamSearch = e.target.value;
-      clearTimeout(teamSearchDebounce);
-      teamSearchDebounce = setTimeout(updateTeamSearchResults, 120);
-    });
-    addWrap.appendChild(teamAddInputEl);
-    teamResultsEl = el('ul', { class: 'team-search-results' });
-    addWrap.appendChild(teamResultsEl);
-    app.appendChild(addWrap);
 
     teamAnalysisEl = el('div', { class: 'team-analysis' });
     app.appendChild(teamAnalysisEl);
@@ -954,6 +1054,45 @@
     teamMounted = true;
     updateTeam();
   }
+
+  // Global drag + click-outside listeners, attached once - they no-op
+  // unless a slot picker/drag is actually active, so it's safe to keep
+  // them registered regardless of which page is currently mounted.
+  document.addEventListener('mousedown', (e) => {
+    if (activeSlotIndex === null || !teamRosterEl) return;
+    const activeEl = teamRosterEl.querySelector('.team-slot.empty.active');
+    if (activeEl && !activeEl.contains(e.target)) closeSlotPicker();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeSlotPicker();
+  });
+  window.addEventListener('pointermove', (e) => {
+    if (dragState.index === null) return;
+    if (!dragState.moved) {
+      if (Math.hypot(e.clientX - dragState.startX, e.clientY - dragState.startY) < DRAG_THRESHOLD) return;
+      dragState.moved = true;
+      updateTeamRoster();
+    }
+    e.preventDefault();
+    const hovered = document.elementFromPoint(e.clientX, e.clientY);
+    const slotEl = hovered ? hovered.closest('[data-slot-index]') : null;
+    const overIndex = slotEl ? Number(slotEl.dataset.slotIndex) : null;
+    if (overIndex !== dragState.overIndex) {
+      dragState.overIndex = overIndex;
+      updateTeamRoster();
+    }
+  }, { passive: false });
+  function endDrag() {
+    const d = dragState;
+    dragState = { index: null, overIndex: null, moved: false, startX: 0, startY: 0 };
+    if (d.moved && d.overIndex !== null && d.overIndex !== d.index) {
+      swapSlots(d.index, d.overIndex);
+    } else if (d.moved) {
+      updateTeamRoster();
+    }
+  }
+  window.addEventListener('pointerup', endDrag);
+  window.addEventListener('pointercancel', endDrag);
 
   function updateNavActive(hash) {
     const isTeam = hash === '#team';
@@ -970,12 +1109,14 @@
     if (hash.startsWith('#pokemon-')) {
       homeMounted = false;
       teamMounted = false;
+      activeSlotIndex = null;
       renderDetail(Number(hash.slice('#pokemon-'.length)));
     } else if (hash === '#team') {
       homeMounted = false;
       renderTeam();
     } else {
       teamMounted = false;
+      activeSlotIndex = null;
       renderHome();
     }
   }
