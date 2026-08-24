@@ -1,0 +1,501 @@
+.status-message {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+/* ---------- top nav ---------- */
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 20px 0;
+}
+
+.top-nav-brand {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.top-nav-link {
+  font-size: 14px;
+  opacity: 0.65;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.top-nav-link:hover {
+  opacity: 1;
+}
+
+.top-nav-link.active {
+  opacity: 1;
+  border-bottom-color: currentColor;
+}
+
+/* ---------- Home / grid ---------- */
+
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.home-page > h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 8px 0 20px;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.filter-bar select,
+.filter-bar .search-input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+.search-input {
+  min-width: 220px;
+}
+
+.result-count {
+  text-align: center;
+  color: var(--text);
+  opacity: 0.6;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pokemon-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 10px 12px;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.pokemon-card h3 {
+  margin: 6px 0 8px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.pokemon-card-id {
+  align-self: flex-start;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.pokemon-card-gen {
+  margin-top: 8px;
+  font-size: 11px;
+  opacity: 0.55;
+}
+
+.type-badge-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.type-badge {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.rarity-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.rarity-common {
+  background: #d9d9e0;
+  color: #333;
+}
+
+.rarity-legendary {
+  background: linear-gradient(135deg, #f7d774, #f0a500);
+  color: #4a2f00;
+}
+
+/* ---------- Detail page ---------- */
+
+.detail-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
+
+.detail-header {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.detail-id {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.detail-info h1 {
+  margin: 4px 0 12px;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.detail-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  margin-top: 18px;
+  font-size: 15px;
+}
+
+.detail-facts dt {
+  opacity: 0.6;
+}
+
+.detail-facts dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.weaknesses-section {
+  margin-top: 28px;
+}
+
+.weaknesses-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.evolution-section {
+  margin-top: 32px;
+}
+
+.no-evolution {
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.evolution-chain {
+  overflow-x: auto;
+  padding: 12px 0;
+}
+
+.evolution-branch {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.evolution-node-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  min-width: 90px;
+}
+
+.evolution-node-link:hover {
+  border-color: var(--accent);
+}
+
+.evolution-node-link img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.evolution-node-link span {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.evolution-arrow {
+  font-size: 20px;
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+
+.evolution-children {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ---------- Team builder ---------- */
+
+.team-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.team-page > h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 8px 0 4px;
+}
+
+.team-subtitle {
+  text-align: center;
+  opacity: 0.65;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.team-roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.team-slot {
+  position: relative;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 130px;
+}
+
+.team-slot.empty {
+  justify-content: center;
+  opacity: 0.4;
+  font-size: 13px;
+  border-style: dashed;
+}
+
+.team-slot img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.team-slot-name {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 4px 0 6px;
+}
+
+.team-slot-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  background: var(--border);
+  color: var(--text);
+  cursor: pointer;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.team-slot-remove:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.team-add {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.team-add input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+.team-add input:disabled {
+  opacity: 0.6;
+}
+
+.team-search-results {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  overflow: hidden;
+}
+
+.team-search-results li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.team-search-results li:last-child {
+  border-bottom: none;
+}
+
+.team-search-results img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.team-search-results span {
+  flex: 1;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.team-search-results button {
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.team-search-results button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.team-empty-state {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.team-analysis {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.team-analysis h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.weakness-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.weakness-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weakness-count {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.type-badge-muted {
+  opacity: 0.25;
+}
+
+.coverage-gap {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.75;
+  text-transform: capitalize;
+}

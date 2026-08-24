@@ -1,0 +1,12 @@
+# Dependencies
+app/node_modules/
+
+# Build output
+app/dist/
+
+# Build/API cache - fully regenerable, see CLAUDE.md
+app/scripts/cache/
+app/scripts/artifact_data.json
+
+# OS
+.DS_Store
