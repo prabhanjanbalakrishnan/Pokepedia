@@ -102,6 +102,33 @@ def id_from_url(url):
     return int(re.search(r"/(\d+)/?$", url).group(1))
 
 
+def format_ability_name(slug):
+    return slug.replace("-", " ").title()
+
+
+def extract_details(species, pokemon):
+    japanese_name = next(
+        (n["name"] for n in species["names"] if n["language"]["name"] == "ja"), ""
+    )
+    classification = next(
+        (g["genus"] for g in species["genera"] if g["language"]["name"] == "en"), ""
+    )
+    abilities = [
+        {"name": format_ability_name(a["ability"]["name"]), "hidden": a["is_hidden"]}
+        for a in sorted(pokemon["abilities"], key=lambda a: a["slot"])
+    ]
+    speed = next(
+        s["base_stat"] for s in pokemon["stats"] if s["stat"]["name"] == "speed"
+    )
+    return {
+        "japaneseName": japanese_name,
+        "classification": classification,
+        "abilities": abilities,
+        "weightKg": pokemon["weight"] / 10,
+        "speed": speed,
+    }
+
+
 def read_pokemon_sheet():
     wb = openpyxl.load_workbook(XLSX_PATH, data_only=True)
     ws = wb.worksheets[0]
@@ -162,6 +189,10 @@ def build():
         species = fetch_json(
             f"https://pokeapi.co/api/v2/pokemon-species/{pid}", f"species_{pid}"
         )
+        pokemon_data = fetch_json(
+            f"https://pokeapi.co/api/v2/pokemon/{pid}", f"pokemon_{pid}"
+        )
+        details = extract_details(species, pokemon_data)
         chain_id = id_from_url(species["evolution_chain"]["url"])
 
         if chain_id not in evolution_chain_cache:
@@ -188,6 +219,7 @@ def build():
                 "strengths": compute_strengths(types),
                 "weaknesses": p["weaknesses"],
                 "evolutionChain": evolution_chain_cache[chain_id],
+                **details,
             }
         )
 

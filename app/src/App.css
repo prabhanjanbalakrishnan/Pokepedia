@@ -300,6 +300,30 @@
   color: var(--text-h);
 }
 
+.ability-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ability-badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  background: var(--card-bg);
+  border: 2px solid var(--shell-line);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.ability-hidden-tag {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
 .weaknesses-section {
   margin-top: 26px;
 }

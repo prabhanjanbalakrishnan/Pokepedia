@@ -33,15 +33,35 @@ export default function PokemonDetail({ pokemonList }) {
               ))}
             </div>
             <dl className="detail-facts">
+              <dt>Japanese Name</dt>
+              <dd>{pokemon.japaneseName}</dd>
+              <dt>Classification</dt>
+              <dd>{pokemon.classification}</dd>
               <dt>Region</dt>
               <dd>{pokemon.region}</dd>
               <dt>Generation</dt>
               <dd>Gen {pokemon.generation}</dd>
               <dt>Rarity</dt>
               <dd><RarityBadge rarity={pokemon.rarity} /></dd>
+              <dt>Weight</dt>
+              <dd>{pokemon.weightKg} kg</dd>
+              <dt>Speed</dt>
+              <dd>{pokemon.speed}</dd>
             </dl>
           </div>
         </div>
+
+        <section className="weaknesses-section">
+          <h2>Abilities</h2>
+          <div className="ability-badge-row">
+            {pokemon.abilities.map((a) => (
+              <span key={a.name} className="ability-badge">
+                {a.name}
+                {a.hidden && <span className="ability-hidden-tag"> (Hidden)</span>}
+              </span>
+            ))}
+          </div>
+        </section>
 
         <section className="weaknesses-section">
           <h2>Strengths</h2>

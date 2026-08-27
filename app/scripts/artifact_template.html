@@ -353,6 +353,22 @@
   .rarity-common { background: #d9d9c9; color: #333; }
   .rarity-legendary { background: linear-gradient(135deg, #f7d774, #f0a500); color: #4a2f00; }
 
+  .ability-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .ability-badge {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--card-bg);
+    border: 2px solid var(--shell-line);
+    padding: 4px 12px;
+    border-radius: 999px;
+  }
+
+  .ability-hidden-tag { font-weight: 400; opacity: 0.7; font-size: 12px; }
+
   .evo-section { margin-top: 22px; }
 
   .evo-section h3 {
@@ -773,12 +789,20 @@
 
     const detail = el('div', { class: 'detail' });
     const facts = el('dl', { class: 'facts' }, [
+      el('dt', {}, [document.createTextNode('Japanese Name')]),
+      el('dd', {}, [document.createTextNode(p.japaneseName)]),
+      el('dt', {}, [document.createTextNode('Classification')]),
+      el('dd', {}, [document.createTextNode(p.classification)]),
       el('dt', {}, [document.createTextNode('Region')]),
       el('dd', {}, [document.createTextNode(p.region)]),
       el('dt', {}, [document.createTextNode('Generation')]),
       el('dd', {}, [document.createTextNode('Gen ' + p.generation)]),
       el('dt', {}, [document.createTextNode('Rarity')]),
       el('dd', {}, [el('span', { class: 'rarity-badge rarity-' + p.rarity.toLowerCase() }, [document.createTextNode(p.rarity)])]),
+      el('dt', {}, [document.createTextNode('Weight')]),
+      el('dd', {}, [document.createTextNode(p.weightKg + ' kg')]),
+      el('dt', {}, [document.createTextNode('Speed')]),
+      el('dd', {}, [document.createTextNode(String(p.speed))]),
     ]);
 
     const header = el('div', { class: 'report-header' }, [
@@ -791,6 +815,15 @@
       ]),
     ]);
     detail.appendChild(header);
+
+    const abilitiesSection = el('div', { class: 'evo-section' }, [
+      el('h3', {}, [document.createTextNode('Abilities')]),
+      el('div', { class: 'ability-badges' }, p.abilities.map((a) => el('span', { class: 'ability-badge' }, [
+        document.createTextNode(a.name),
+        ...(a.hidden ? [el('span', { class: 'ability-hidden-tag' }, [document.createTextNode(' (Hidden)')])] : []),
+      ]))),
+    ]);
+    detail.appendChild(abilitiesSection);
 
     const strongSection = el('div', { class: 'evo-section' }, [
       el('h3', {}, [document.createTextNode('Strengths')]),
