@@ -117,15 +117,18 @@ def extract_details(species, pokemon):
         {"name": format_ability_name(a["ability"]["name"]), "hidden": a["is_hidden"]}
         for a in sorted(pokemon["abilities"], key=lambda a: a["slot"])
     ]
-    speed = next(
-        s["base_stat"] for s in pokemon["stats"] if s["stat"]["name"] == "speed"
-    )
+    stats = {s["stat"]["name"]: s["base_stat"] for s in pokemon["stats"]}
     return {
         "japaneseName": japanese_name,
         "classification": classification,
         "abilities": abilities,
+        "heightM": pokemon["height"] / 10,
         "weightKg": pokemon["weight"] / 10,
-        "speed": speed,
+        "attack": stats["attack"],
+        "defense": stats["defense"],
+        "specialAttack": stats["special-attack"],
+        "specialDefense": stats["special-defense"],
+        "speed": stats["speed"],
     }
 
 

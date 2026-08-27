@@ -324,6 +324,44 @@
   font-size: 12px;
 }
 
+.stat-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: 130px 36px 1fr;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+}
+
+.stat-label {
+  color: var(--text);
+}
+
+.stat-value {
+  color: var(--text-h);
+  font-weight: 600;
+  text-align: right;
+}
+
+.stat-bar-track {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--shell-line);
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
 .weaknesses-section {
   margin-top: 26px;
 }

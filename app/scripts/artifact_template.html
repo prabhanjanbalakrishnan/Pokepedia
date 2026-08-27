@@ -369,6 +369,29 @@
 
   .ability-hidden-tag { font-weight: 400; opacity: 0.7; font-size: 12px; }
 
+  .stat-bars { display: flex; flex-direction: column; gap: 8px; }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: 130px 36px 1fr;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 16px;
+  }
+
+  .stat-label { color: var(--ink-soft); }
+  .stat-value { color: var(--ink); font-weight: 600; text-align: right; }
+
+  .stat-bar-track {
+    height: 10px;
+    border-radius: 999px;
+    background: var(--shell-line);
+    overflow: hidden;
+  }
+
+  .stat-bar-fill { height: 100%; border-radius: 999px; background: var(--accent); }
+
   .evo-section { margin-top: 22px; }
 
   .evo-section h3 {
@@ -799,10 +822,10 @@
       el('dd', {}, [document.createTextNode('Gen ' + p.generation)]),
       el('dt', {}, [document.createTextNode('Rarity')]),
       el('dd', {}, [el('span', { class: 'rarity-badge rarity-' + p.rarity.toLowerCase() }, [document.createTextNode(p.rarity)])]),
+      el('dt', {}, [document.createTextNode('Height')]),
+      el('dd', {}, [document.createTextNode(p.heightM + ' m')]),
       el('dt', {}, [document.createTextNode('Weight')]),
       el('dd', {}, [document.createTextNode(p.weightKg + ' kg')]),
-      el('dt', {}, [document.createTextNode('Speed')]),
-      el('dd', {}, [document.createTextNode(String(p.speed))]),
     ]);
 
     const header = el('div', { class: 'report-header' }, [
@@ -824,6 +847,26 @@
       ]))),
     ]);
     detail.appendChild(abilitiesSection);
+
+    const STAT_MAX = 200;
+    const baseStats = [
+      { label: 'Attack', value: p.attack },
+      { label: 'Defense', value: p.defense },
+      { label: 'Special Attack', value: p.specialAttack },
+      { label: 'Special Defense', value: p.specialDefense },
+      { label: 'Speed', value: p.speed },
+    ];
+    const statsSection = el('div', { class: 'evo-section' }, [
+      el('h3', {}, [document.createTextNode('Base Stats')]),
+      el('div', { class: 'stat-bars' }, baseStats.map((s) => el('div', { class: 'stat-row' }, [
+        el('span', { class: 'stat-label' }, [document.createTextNode(s.label)]),
+        el('span', { class: 'stat-value' }, [document.createTextNode(String(s.value))]),
+        el('div', { class: 'stat-bar-track' }, [
+          el('div', { class: 'stat-bar-fill', style: 'width:' + Math.min(100, (s.value / STAT_MAX) * 100) + '%' }),
+        ]),
+      ]))),
+    ]);
+    detail.appendChild(statsSection);
 
     const strongSection = el('div', { class: 'evo-section' }, [
       el('h3', {}, [document.createTextNode('Strengths')]),

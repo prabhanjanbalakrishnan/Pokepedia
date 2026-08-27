@@ -18,6 +18,15 @@ export default function PokemonDetail({ pokemonList }) {
     )
   }
 
+  const STAT_MAX = 200
+  const baseStats = [
+    { label: 'Attack', value: pokemon.attack },
+    { label: 'Defense', value: pokemon.defense },
+    { label: 'Special Attack', value: pokemon.specialAttack },
+    { label: 'Special Defense', value: pokemon.specialDefense },
+    { label: 'Speed', value: pokemon.speed },
+  ]
+
   return (
     <div className="detail-page">
       <Link to="/" className="back-link">← Back</Link>
@@ -43,10 +52,10 @@ export default function PokemonDetail({ pokemonList }) {
               <dd>Gen {pokemon.generation}</dd>
               <dt>Rarity</dt>
               <dd><RarityBadge rarity={pokemon.rarity} /></dd>
+              <dt>Height</dt>
+              <dd>{pokemon.heightM} m</dd>
               <dt>Weight</dt>
               <dd>{pokemon.weightKg} kg</dd>
-              <dt>Speed</dt>
-              <dd>{pokemon.speed}</dd>
             </dl>
           </div>
         </div>
@@ -59,6 +68,24 @@ export default function PokemonDetail({ pokemonList }) {
                 {a.name}
                 {a.hidden && <span className="ability-hidden-tag"> (Hidden)</span>}
               </span>
+            ))}
+          </div>
+        </section>
+
+        <section className="weaknesses-section">
+          <h2>Base Stats</h2>
+          <div className="stat-bars">
+            {baseStats.map((s) => (
+              <div className="stat-row" key={s.label}>
+                <span className="stat-label">{s.label}</span>
+                <span className="stat-value">{s.value}</span>
+                <div className="stat-bar-track">
+                  <div
+                    className="stat-bar-fill"
+                    style={{ width: `${Math.min(100, (s.value / STAT_MAX) * 100)}%` }}
+                  />
+                </div>
+              </div>
             ))}
           </div>
         </section>

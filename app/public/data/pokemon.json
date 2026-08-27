@@ -82,7 +82,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 6.9,
+    "attack": 49,
+    "defense": 49,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -168,7 +173,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 13.0,
+    "attack": 62,
+    "defense": 63,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 60
   },
   {
@@ -254,7 +264,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 100.0,
+    "attack": 82,
+    "defense": 83,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 80
   },
   {
@@ -331,7 +346,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.5,
+    "attack": 52,
+    "defense": 43,
+    "specialAttack": 60,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -408,7 +428,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 19.0,
+    "attack": 64,
+    "defense": 58,
+    "specialAttack": 80,
+    "specialDefense": 65,
     "speed": 80
   },
   {
@@ -490,7 +515,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 90.5,
+    "attack": 84,
+    "defense": 78,
+    "specialAttack": 109,
+    "specialDefense": 85,
     "speed": 100
   },
   {
@@ -559,7 +589,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.0,
+    "attack": 48,
+    "defense": 65,
+    "specialAttack": 50,
+    "specialDefense": 64,
     "speed": 43
   },
   {
@@ -628,7 +663,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 22.5,
+    "attack": 63,
+    "defense": 80,
+    "specialAttack": 65,
+    "specialDefense": 80,
     "speed": 58
   },
   {
@@ -697,7 +737,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 85.5,
+    "attack": 83,
+    "defense": 100,
+    "specialAttack": 85,
+    "specialDefense": 105,
     "speed": 78
   },
   {
@@ -770,7 +815,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.9,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 20,
     "speed": 45
   },
   {
@@ -839,7 +889,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.7,
     "weightKg": 9.9,
+    "attack": 20,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 30
   },
   {
@@ -929,7 +984,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 32.0,
+    "attack": 45,
+    "defense": 50,
+    "specialAttack": 90,
+    "specialDefense": 80,
     "speed": 70
   },
   {
@@ -1011,7 +1071,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.2,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 20,
     "speed": 50
   },
   {
@@ -1089,7 +1154,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.0,
+    "attack": 25,
+    "defense": 50,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 35
   },
   {
@@ -1171,7 +1241,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 29.5,
+    "attack": 90,
+    "defense": 40,
+    "specialAttack": 45,
+    "specialDefense": 80,
     "speed": 75
   },
   {
@@ -1249,7 +1324,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.8,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 56
   },
   {
@@ -1327,7 +1407,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 30.0,
+    "attack": 60,
+    "defense": 55,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 71
   },
   {
@@ -1405,7 +1490,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 39.5,
+    "attack": 80,
+    "defense": 75,
+    "specialAttack": 70,
+    "specialDefense": 70,
     "speed": 101
   },
   {
@@ -1464,7 +1554,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.5,
+    "attack": 56,
+    "defense": 35,
+    "specialAttack": 25,
+    "specialDefense": 35,
     "speed": 72
   },
   {
@@ -1523,7 +1618,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 18.5,
+    "attack": 81,
+    "defense": 60,
+    "specialAttack": 50,
+    "specialDefense": 70,
     "speed": 97
   },
   {
@@ -1590,7 +1690,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.0,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 31,
+    "specialDefense": 31,
     "speed": 70
   },
   {
@@ -1657,7 +1762,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 38.0,
+    "attack": 90,
+    "defense": 65,
+    "specialAttack": 61,
+    "specialDefense": 61,
     "speed": 100
   },
   {
@@ -1719,7 +1829,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 6.9,
+    "attack": 60,
+    "defense": 44,
+    "specialAttack": 40,
+    "specialDefense": 54,
     "speed": 55
   },
   {
@@ -1781,7 +1896,12 @@
         "hidden": true
       }
     ],
+    "heightM": 3.5,
     "weightKg": 65.0,
+    "attack": 95,
+    "defense": 69,
+    "specialAttack": 65,
+    "specialDefense": 79,
     "speed": 80
   },
   {
@@ -1842,7 +1962,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.0,
+    "attack": 55,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 90
   },
   {
@@ -1903,7 +2028,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 30.0,
+    "attack": 90,
+    "defense": 55,
+    "specialAttack": 90,
+    "specialDefense": 80,
     "speed": 110
   },
   {
@@ -1994,7 +2124,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 12.0,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 20,
+    "specialDefense": 30,
     "speed": 40
   },
   {
@@ -2085,7 +2220,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 29.5,
+    "attack": 100,
+    "defense": 110,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 65
   },
   {
@@ -2154,7 +2294,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.0,
+    "attack": 47,
+    "defense": 52,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 41
   },
   {
@@ -2223,7 +2368,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 20.0,
+    "attack": 62,
+    "defense": 67,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 56
   },
   {
@@ -2321,7 +2471,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 60.0,
+    "attack": 92,
+    "defense": 87,
+    "specialAttack": 75,
+    "specialDefense": 85,
     "speed": 76
   },
   {
@@ -2390,7 +2545,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.0,
+    "attack": 57,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 50
   },
   {
@@ -2459,7 +2619,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 19.5,
+    "attack": 72,
+    "defense": 57,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 65
   },
   {
@@ -2557,7 +2722,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 62.0,
+    "attack": 102,
+    "defense": 77,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 85
   },
   {
@@ -2630,7 +2800,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.5,
+    "attack": 45,
+    "defense": 48,
+    "specialAttack": 60,
+    "specialDefense": 65,
     "speed": 35
   },
   {
@@ -2703,7 +2878,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 40.0,
+    "attack": 70,
+    "defense": 73,
+    "specialAttack": 95,
+    "specialDefense": 90,
     "speed": 60
   },
   {
@@ -2786,7 +2966,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 9.9,
+    "attack": 41,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 65,
     "speed": 65
   },
   {
@@ -2869,7 +3054,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 19.9,
+    "attack": 76,
+    "defense": 75,
+    "specialAttack": 81,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -2943,7 +3133,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.5,
+    "attack": 45,
+    "defense": 20,
+    "specialAttack": 45,
+    "specialDefense": 25,
     "speed": 20
   },
   {
@@ -3017,7 +3212,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 12.0,
+    "attack": 70,
+    "defense": 45,
+    "specialAttack": 85,
+    "specialDefense": 50,
     "speed": 45
   },
   {
@@ -3099,7 +3299,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 7.5,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 30,
+    "specialDefense": 40,
     "speed": 55
   },
   {
@@ -3181,7 +3386,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 55.0,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 75,
     "speed": 90
   },
   {
@@ -3273,7 +3483,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.4,
+    "attack": 50,
+    "defense": 55,
+    "specialAttack": 75,
+    "specialDefense": 65,
     "speed": 30
   },
   {
@@ -3365,7 +3580,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 8.6,
+    "attack": 65,
+    "defense": 70,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 40
   },
   {
@@ -3457,7 +3677,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 18.6,
+    "attack": 80,
+    "defense": 85,
+    "specialAttack": 110,
+    "specialDefense": 90,
     "speed": 50
   },
   {
@@ -3552,7 +3777,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 5.4,
+    "attack": 70,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 25
   },
   {
@@ -3647,7 +3877,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 29.5,
+    "attack": 95,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 80,
     "speed": 30
   },
   {
@@ -3726,7 +3961,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 30.0,
+    "attack": 55,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 55,
     "speed": 45
   },
   {
@@ -3805,7 +4045,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 12.5,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 90,
+    "specialDefense": 75,
     "speed": 90
   },
   {
@@ -3883,7 +4128,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.8,
+    "attack": 55,
+    "defense": 25,
+    "specialAttack": 35,
+    "specialDefense": 45,
     "speed": 95
   },
   {
@@ -3961,7 +4211,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 33.3,
+    "attack": 100,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 70,
     "speed": 120
   },
   {
@@ -4026,7 +4281,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.2,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 90
   },
   {
@@ -4091,7 +4351,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 32.0,
+    "attack": 70,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 115
   },
   {
@@ -4157,7 +4422,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 19.6,
+    "attack": 52,
+    "defense": 48,
+    "specialAttack": 65,
+    "specialDefense": 50,
     "speed": 55
   },
   {
@@ -4223,7 +4493,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 76.6,
+    "attack": 82,
+    "defense": 78,
+    "specialAttack": 95,
+    "specialDefense": 80,
     "speed": 85
   },
   {
@@ -4308,7 +4583,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 28.0,
+    "attack": 80,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 45,
     "speed": 70
   },
   {
@@ -4393,7 +4673,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 32.0,
+    "attack": 105,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 95
   },
   {
@@ -4467,7 +4752,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 19.0,
+    "attack": 70,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 50,
     "speed": 60
   },
   {
@@ -4541,7 +4831,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 155.0,
+    "attack": 110,
+    "defense": 80,
+    "specialAttack": 100,
+    "specialDefense": 80,
     "speed": 95
   },
   {
@@ -4620,7 +4915,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 12.4,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 90
   },
   {
@@ -4699,7 +4999,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 20.0,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 90
   },
   {
@@ -4807,7 +5112,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 54.0,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 70,
+    "specialDefense": 90,
     "speed": 70
   },
   {
@@ -4880,7 +5190,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 19.5,
+    "attack": 20,
+    "defense": 15,
+    "specialAttack": 105,
+    "specialDefense": 55,
     "speed": 90
   },
   {
@@ -4953,7 +5268,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 56.5,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 120,
+    "specialDefense": 70,
     "speed": 105
   },
   {
@@ -5026,7 +5346,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 48.0,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 135,
+    "specialDefense": 95,
     "speed": 120
   },
   {
@@ -5111,7 +5436,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 19.5,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 35
   },
   {
@@ -5196,7 +5526,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 70.5,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 60,
     "speed": 45
   },
   {
@@ -5281,7 +5616,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 130.0,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 65,
+    "specialDefense": 85,
     "speed": 55
   },
   {
@@ -5367,7 +5707,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 4.0,
+    "attack": 75,
+    "defense": 35,
+    "specialAttack": 70,
+    "specialDefense": 30,
     "speed": 40
   },
   {
@@ -5453,7 +5798,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 6.4,
+    "attack": 90,
+    "defense": 50,
+    "specialAttack": 85,
+    "specialDefense": 45,
     "speed": 55
   },
   {
@@ -5539,7 +5889,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 15.5,
+    "attack": 105,
+    "defense": 65,
+    "specialAttack": 100,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -5618,7 +5973,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 45.5,
+    "attack": 40,
+    "defense": 35,
+    "specialAttack": 50,
+    "specialDefense": 100,
     "speed": 70
   },
   {
@@ -5697,7 +6057,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 55.0,
+    "attack": 70,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 120,
     "speed": 100
   },
   {
@@ -5807,7 +6172,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 20.0,
+    "attack": 80,
+    "defense": 100,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 20
   },
   {
@@ -5917,7 +6287,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 105.0,
+    "attack": 95,
+    "defense": 115,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 35
   },
   {
@@ -6027,7 +6402,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 300.0,
+    "attack": 120,
+    "defense": 130,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -6101,7 +6481,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 30.0,
+    "attack": 85,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 90
   },
   {
@@ -6175,7 +6560,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 95.0,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 105
   },
   {
@@ -6268,7 +6658,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 36.0,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 15
   },
   {
@@ -6361,7 +6756,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 78.5,
+    "attack": 75,
+    "defense": 110,
+    "specialAttack": 100,
+    "specialDefense": 80,
     "speed": 30
   },
   {
@@ -6447,7 +6847,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 6.0,
+    "attack": 35,
+    "defense": 70,
+    "specialAttack": 95,
+    "specialDefense": 55,
     "speed": 45
   },
   {
@@ -6533,7 +6938,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 60.0,
+    "attack": 60,
+    "defense": 95,
+    "specialAttack": 120,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -6604,7 +7014,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 15.0,
+    "attack": 90,
+    "defense": 55,
+    "specialAttack": 58,
+    "specialDefense": 62,
     "speed": 60
   },
   {
@@ -6675,7 +7090,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 39.2,
+    "attack": 85,
+    "defense": 45,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 75
   },
   {
@@ -6746,7 +7166,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 85.2,
+    "attack": 110,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 110
   },
   {
@@ -6812,7 +7237,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 90.0,
+    "attack": 45,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 70,
     "speed": 45
   },
   {
@@ -6899,7 +7329,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 120.0,
+    "attack": 70,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 95,
     "speed": 70
   },
   {
@@ -6961,7 +7396,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 30.0,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 25
   },
   {
@@ -7023,7 +7463,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 30.0,
+    "attack": 105,
+    "defense": 75,
+    "specialAttack": 65,
+    "specialDefense": 100,
     "speed": 50
   },
   {
@@ -7089,7 +7534,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 4.0,
+    "attack": 65,
+    "defense": 100,
+    "specialAttack": 45,
+    "specialDefense": 25,
     "speed": 40
   },
   {
@@ -7176,7 +7626,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 132.5,
+    "attack": 95,
+    "defense": 180,
+    "specialAttack": 85,
+    "specialDefense": 45,
     "speed": 70
   },
   {
@@ -7254,7 +7709,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.3,
     "weightKg": 0.1,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 100,
+    "specialDefense": 35,
     "speed": 80
   },
   {
@@ -7332,7 +7792,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.6,
     "weightKg": 0.1,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 115,
+    "specialDefense": 55,
     "speed": 95
   },
   {
@@ -7410,7 +7875,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 40.5,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 130,
+    "specialDefense": 75,
     "speed": 110
   },
   {
@@ -7513,7 +7983,12 @@
         "hidden": true
       }
     ],
+    "heightM": 8.8,
     "weightKg": 210.0,
+    "attack": 45,
+    "defense": 160,
+    "specialAttack": 30,
+    "specialDefense": 45,
     "speed": 70
   },
   {
@@ -7579,7 +8054,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 32.4,
+    "attack": 48,
+    "defense": 45,
+    "specialAttack": 43,
+    "specialDefense": 90,
     "speed": 42
   },
   {
@@ -7645,7 +8125,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 75.6,
+    "attack": 73,
+    "defense": 70,
+    "specialAttack": 73,
+    "specialDefense": 115,
     "speed": 67
   },
   {
@@ -7711,7 +8196,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.5,
+    "attack": 105,
+    "defense": 90,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 50
   },
   {
@@ -7777,7 +8267,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 60.0,
+    "attack": 130,
+    "defense": 115,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 75
   },
   {
@@ -7835,7 +8330,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 10.4,
+    "attack": 30,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 100
   },
   {
@@ -7893,7 +8393,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 66.6,
+    "attack": 50,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 150
   },
   {
@@ -7984,7 +8489,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 2.5,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 45,
     "speed": 40
   },
   {
@@ -8075,7 +8585,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 120.0,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 125,
+    "specialDefense": 75,
     "speed": 55
   },
   {
@@ -8153,7 +8668,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.5,
+    "attack": 50,
+    "defense": 95,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 35
   },
   {
@@ -8244,7 +8764,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 45.0,
+    "attack": 80,
+    "defense": 110,
+    "specialAttack": 50,
+    "specialDefense": 80,
     "speed": 45
   },
   {
@@ -8334,7 +8859,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 49.8,
+    "attack": 120,
+    "defense": 53,
+    "specialAttack": 35,
+    "specialDefense": 110,
     "speed": 87
   },
   {
@@ -8424,7 +8954,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 50.2,
+    "attack": 105,
+    "defense": 79,
+    "specialAttack": 35,
+    "specialDefense": 110,
     "speed": 76
   },
   {
@@ -8473,7 +9008,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 65.5,
+    "attack": 55,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
     "speed": 30
   },
   {
@@ -8535,7 +9075,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 1.0,
+    "attack": 65,
+    "defense": 95,
+    "specialAttack": 60,
+    "specialDefense": 45,
     "speed": 35
   },
   {
@@ -8597,7 +9142,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 9.5,
+    "attack": 90,
+    "defense": 120,
+    "specialAttack": 85,
+    "specialDefense": 70,
     "speed": 60
   },
   {
@@ -8707,7 +9257,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 115.0,
+    "attack": 85,
+    "defense": 95,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 25
   },
   {
@@ -8817,7 +9372,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 120.0,
+    "attack": 130,
+    "defense": 120,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 40
   },
   {
@@ -8873,7 +9433,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 34.6,
+    "attack": 5,
+    "defense": 5,
+    "specialAttack": 35,
+    "specialDefense": 105,
     "speed": 50
   },
   {
@@ -8951,7 +9516,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 35.0,
+    "attack": 55,
+    "defense": 115,
+    "specialAttack": 100,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -8993,7 +9563,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 80.0,
+    "attack": 95,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 80,
     "speed": 90
   },
   {
@@ -9066,7 +9641,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 8.0,
+    "attack": 40,
+    "defense": 70,
+    "specialAttack": 70,
+    "specialDefense": 25,
     "speed": 60
   },
   {
@@ -9139,7 +9719,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 25.0,
+    "attack": 65,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 45,
     "speed": 85
   },
   {
@@ -9205,7 +9790,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 15.0,
+    "attack": 67,
+    "defense": 60,
+    "specialAttack": 35,
+    "specialDefense": 50,
     "speed": 63
   },
   {
@@ -9271,7 +9861,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 39.0,
+    "attack": 92,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 80,
     "speed": 68
   },
   {
@@ -9337,7 +9932,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 34.5,
+    "attack": 45,
+    "defense": 55,
+    "specialAttack": 70,
+    "specialDefense": 55,
     "speed": 85
   },
   {
@@ -9424,7 +10024,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 80.0,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 100,
+    "specialDefense": 85,
     "speed": 115
   },
   {
@@ -9506,7 +10111,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 54.5,
+    "attack": 45,
+    "defense": 65,
+    "specialAttack": 100,
+    "specialDefense": 120,
     "speed": 90
   },
   {
@@ -9599,7 +10209,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 56.0,
+    "attack": 110,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 80,
     "speed": 105
   },
   {
@@ -9694,7 +10309,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 40.6,
+    "attack": 50,
+    "defense": 35,
+    "specialAttack": 115,
+    "specialDefense": 95,
     "speed": 95
   },
   {
@@ -9755,7 +10375,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 30.0,
+    "attack": 83,
+    "defense": 57,
+    "specialAttack": 95,
+    "specialDefense": 85,
     "speed": 105
   },
   {
@@ -9832,7 +10457,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 44.5,
+    "attack": 95,
+    "defense": 57,
+    "specialAttack": 100,
+    "specialDefense": 85,
     "speed": 93
   },
   {
@@ -9895,7 +10525,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 55.0,
+    "attack": 125,
+    "defense": 100,
+    "specialAttack": 55,
+    "specialDefense": 70,
     "speed": 85
   },
   {
@@ -9937,7 +10572,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 88.4,
+    "attack": 100,
+    "defense": 95,
+    "specialAttack": 40,
+    "specialDefense": 70,
     "speed": 110
   },
   {
@@ -9999,7 +10639,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 10.0,
+    "attack": 10,
+    "defense": 55,
+    "specialAttack": 15,
+    "specialDefense": 20,
     "speed": 80
   },
   {
@@ -10074,7 +10719,12 @@
         "hidden": true
       }
     ],
+    "heightM": 6.5,
     "weightKg": 235.0,
+    "attack": 125,
+    "defense": 79,
+    "specialAttack": 60,
+    "specialDefense": 100,
     "speed": 81
   },
   {
@@ -10154,7 +10804,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.5,
     "weightKg": 220.0,
+    "attack": 85,
+    "defense": 80,
+    "specialAttack": 85,
+    "specialDefense": 95,
     "speed": 60
   },
   {
@@ -10192,7 +10847,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 4.0,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 48,
+    "specialDefense": 48,
     "speed": 48
   },
   {
@@ -10283,7 +10943,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 6.5,
+    "attack": 55,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 65,
     "speed": 55
   },
   {
@@ -10387,7 +11052,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 29.0,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 110,
+    "specialDefense": 95,
     "speed": 65
   },
   {
@@ -10483,7 +11153,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 24.5,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 110,
+    "specialDefense": 95,
     "speed": 130
   },
   {
@@ -10595,7 +11270,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 25.0,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 110,
     "speed": 65
   },
   {
@@ -10651,7 +11331,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 36.5,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 40
   },
   {
@@ -10738,7 +11423,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.5,
+    "attack": 40,
+    "defense": 100,
+    "specialAttack": 90,
+    "specialDefense": 55,
     "speed": 35
   },
   {
@@ -10825,7 +11515,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 35.0,
+    "attack": 60,
+    "defense": 125,
+    "specialAttack": 115,
+    "specialDefense": 70,
     "speed": 55
   },
   {
@@ -10912,7 +11607,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 11.5,
+    "attack": 80,
+    "defense": 90,
+    "specialAttack": 55,
+    "specialDefense": 45,
     "speed": 55
   },
   {
@@ -10999,7 +11699,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 40.5,
+    "attack": 115,
+    "defense": 105,
+    "specialAttack": 65,
+    "specialDefense": 70,
     "speed": 80
   },
   {
@@ -11083,7 +11788,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 59.0,
+    "attack": 105,
+    "defense": 65,
+    "specialAttack": 60,
+    "specialDefense": 75,
     "speed": 130
   },
   {
@@ -11132,7 +11842,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 460.0,
+    "attack": 110,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 110,
     "speed": 30
   },
   {
@@ -11208,7 +11923,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 55.4,
+    "attack": 85,
+    "defense": 100,
+    "specialAttack": 95,
+    "specialDefense": 125,
     "speed": 85
   },
   {
@@ -11272,7 +11992,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 52.6,
+    "attack": 90,
+    "defense": 85,
+    "specialAttack": 125,
+    "specialDefense": 90,
     "speed": 100
   },
   {
@@ -11340,7 +12065,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 60.0,
+    "attack": 100,
+    "defense": 90,
+    "specialAttack": 125,
+    "specialDefense": 85,
     "speed": 90
   },
   {
@@ -11405,7 +12135,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 3.3,
+    "attack": 64,
+    "defense": 45,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 50
   },
   {
@@ -11470,7 +12205,12 @@
         "hidden": true
       }
     ],
+    "heightM": 4.0,
     "weightKg": 16.5,
+    "attack": 84,
+    "defense": 65,
+    "specialAttack": 70,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -11552,7 +12292,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 210.0,
+    "attack": 134,
+    "defense": 95,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 80
   },
   {
@@ -11607,7 +12352,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 122.0,
+    "attack": 110,
+    "defense": 90,
+    "specialAttack": 154,
+    "specialDefense": 90,
     "speed": 130
   },
   {
@@ -11658,7 +12408,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.0,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -11739,7 +12494,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 6.4,
+    "attack": 49,
+    "defense": 65,
+    "specialAttack": 49,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -11820,7 +12580,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 15.8,
+    "attack": 62,
+    "defense": 80,
+    "specialAttack": 63,
+    "specialDefense": 80,
     "speed": 60
   },
   {
@@ -11901,7 +12666,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 100.5,
+    "attack": 82,
+    "defense": 100,
+    "specialAttack": 83,
+    "specialDefense": 100,
     "speed": 80
   },
   {
@@ -11978,7 +12748,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 7.9,
+    "attack": 52,
+    "defense": 43,
+    "specialAttack": 60,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -12055,7 +12830,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 19.0,
+    "attack": 64,
+    "defense": 58,
+    "specialAttack": 80,
+    "specialDefense": 65,
     "speed": 80
   },
   {
@@ -12132,7 +12912,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 79.5,
+    "attack": 84,
+    "defense": 78,
+    "specialAttack": 109,
+    "specialDefense": 85,
     "speed": 100
   },
   {
@@ -12201,7 +12986,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 9.5,
+    "attack": 65,
+    "defense": 64,
+    "specialAttack": 44,
+    "specialDefense": 48,
     "speed": 43
   },
   {
@@ -12270,7 +13060,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 25.0,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 59,
+    "specialDefense": 63,
     "speed": 58
   },
   {
@@ -12339,7 +13134,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.3,
     "weightKg": 88.8,
+    "attack": 105,
+    "defense": 100,
+    "specialAttack": 79,
+    "specialDefense": 83,
     "speed": 78
   },
   {
@@ -12388,7 +13188,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 6.0,
+    "attack": 46,
+    "defense": 34,
+    "specialAttack": 35,
+    "specialDefense": 45,
     "speed": 20
   },
   {
@@ -12437,7 +13242,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 32.5,
+    "attack": 76,
+    "defense": 64,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 90
   },
   {
@@ -12508,7 +13318,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 21.2,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 36,
+    "specialDefense": 56,
     "speed": 50
   },
   {
@@ -12579,7 +13394,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 40.8,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 86,
+    "specialDefense": 96,
     "speed": 70
   },
   {
@@ -12666,7 +13486,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 10.8,
+    "attack": 20,
+    "defense": 30,
+    "specialAttack": 40,
+    "specialDefense": 80,
     "speed": 55
   },
   {
@@ -12753,7 +13578,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 35.6,
+    "attack": 35,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 110,
     "speed": 85
   },
   {
@@ -12832,7 +13662,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 8.5,
+    "attack": 60,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 30
   },
   {
@@ -12911,7 +13746,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 33.5,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 40
   },
   {
@@ -12993,7 +13833,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 75.0,
+    "attack": 90,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
     "speed": 130
   },
   {
@@ -13068,7 +13913,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 12.0,
+    "attack": 38,
+    "defense": 38,
+    "specialAttack": 56,
+    "specialDefense": 56,
     "speed": 67
   },
   {
@@ -13143,7 +13993,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 22.5,
+    "attack": 58,
+    "defense": 58,
+    "specialAttack": 76,
+    "specialDefense": 76,
     "speed": 67
   },
   {
@@ -13204,7 +14059,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.0,
+    "attack": 40,
+    "defense": 15,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 60
   },
   {
@@ -13277,7 +14137,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.0,
+    "attack": 25,
+    "defense": 28,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 15
   },
   {
@@ -13351,7 +14216,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.0,
+    "attack": 30,
+    "defense": 15,
+    "specialAttack": 40,
+    "specialDefense": 20,
     "speed": 15
   },
   {
@@ -13424,7 +14294,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.5,
+    "attack": 20,
+    "defense": 65,
+    "specialAttack": 40,
+    "specialDefense": 65,
     "speed": 20
   },
   {
@@ -13518,7 +14393,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 3.2,
+    "attack": 40,
+    "defense": 85,
+    "specialAttack": 80,
+    "specialDefense": 105,
     "speed": 40
   },
   {
@@ -13601,7 +14481,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 2.0,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 45,
     "speed": 70
   },
   {
@@ -13684,7 +14569,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 15.0,
+    "attack": 75,
+    "defense": 70,
+    "specialAttack": 95,
+    "specialDefense": 70,
     "speed": 95
   },
   {
@@ -13745,7 +14635,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.8,
+    "attack": 40,
+    "defense": 40,
+    "specialAttack": 65,
+    "specialDefense": 45,
     "speed": 35
   },
   {
@@ -13806,7 +14701,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 13.3,
+    "attack": 55,
+    "defense": 55,
+    "specialAttack": 80,
+    "specialDefense": 60,
     "speed": 45
   },
   {
@@ -13867,7 +14767,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 61.5,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 115,
+    "specialDefense": 90,
     "speed": 55
   },
   {
@@ -13954,7 +14859,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.8,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 90,
+    "specialDefense": 100,
     "speed": 50
   },
   {
@@ -14044,7 +14954,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 8.5,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 20,
+    "specialDefense": 50,
     "speed": 40
   },
   {
@@ -14134,7 +15049,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 28.5,
+    "attack": 50,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 80,
     "speed": 50
   },
   {
@@ -14216,7 +15136,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 38.0,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 30,
+    "specialDefense": 65,
     "speed": 30
   },
   {
@@ -14295,7 +15220,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 33.9,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 90,
+    "specialDefense": 100,
     "speed": 70
   },
   {
@@ -14393,7 +15323,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 0.5,
+    "attack": 35,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 55,
     "speed": 50
   },
   {
@@ -14491,7 +15426,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 1.0,
+    "attack": 45,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 65,
     "speed": 80
   },
   {
@@ -14589,7 +15529,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 3.0,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 55,
+    "specialDefense": 95,
     "speed": 110
   },
   {
@@ -14638,7 +15583,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 11.5,
+    "attack": 70,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 55,
     "speed": 85
   },
   {
@@ -14716,7 +15666,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.8,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 30
   },
   {
@@ -14794,7 +15749,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 8.5,
+    "attack": 75,
+    "defense": 55,
+    "specialAttack": 105,
+    "specialDefense": 85,
     "speed": 30
   },
   {
@@ -14881,7 +15841,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 38.0,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 75,
+    "specialDefense": 45,
     "speed": 95
   },
   {
@@ -14962,7 +15927,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 8.5,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 15
   },
   {
@@ -15043,7 +16013,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 75.0,
+    "attack": 85,
+    "defense": 85,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 35
   },
   {
@@ -15147,7 +16122,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 26.5,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 130,
+    "specialDefense": 95,
     "speed": 110
   },
   {
@@ -15251,7 +16231,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 27.0,
+    "attack": 65,
+    "defense": 110,
+    "specialAttack": 60,
+    "specialDefense": 130,
     "speed": 65
   },
   {
@@ -15334,7 +16319,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 2.1,
+    "attack": 85,
+    "defense": 42,
+    "specialAttack": 85,
+    "specialDefense": 42,
     "speed": 91
   },
   {
@@ -15427,7 +16417,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 79.5,
+    "attack": 75,
+    "defense": 80,
+    "specialAttack": 100,
+    "specialDefense": 110,
     "speed": 30
   },
   {
@@ -15481,7 +16476,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.7,
     "weightKg": 1.0,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 85,
+    "specialDefense": 85,
     "speed": 85
   },
   {
@@ -15532,7 +16532,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.0,
+    "attack": 72,
+    "defense": 48,
+    "specialAttack": 72,
+    "specialDefense": 48,
     "speed": 48
   },
   {
@@ -15594,7 +16599,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 28.5,
+    "attack": 33,
+    "defense": 58,
+    "specialAttack": 33,
+    "specialDefense": 58,
     "speed": 33
   },
   {
@@ -15657,7 +16667,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 41.5,
+    "attack": 80,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 65,
     "speed": 85
   },
   {
@@ -15723,7 +16738,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.2,
+    "attack": 65,
+    "defense": 90,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 15
   },
   {
@@ -15794,7 +16814,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 125.8,
+    "attack": 90,
+    "defense": 140,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 40
   },
   {
@@ -15843,7 +16868,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 14.0,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -15930,7 +16960,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 64.8,
+    "attack": 75,
+    "defense": 105,
+    "specialAttack": 35,
+    "specialDefense": 65,
     "speed": 85
   },
   {
@@ -16021,7 +17056,12 @@
         "hidden": true
       }
     ],
+    "heightM": 9.2,
     "weightKg": 400.0,
+    "attack": 85,
+    "defense": 200,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 30
   },
   {
@@ -16087,7 +17127,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.8,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 30
   },
   {
@@ -16153,7 +17198,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 48.7,
+    "attack": 120,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 45
   },
   {
@@ -16232,7 +17282,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 3.9,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 85
   },
   {
@@ -16313,7 +17368,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 118.0,
+    "attack": 130,
+    "defense": 100,
+    "specialAttack": 55,
+    "specialDefense": 80,
     "speed": 65
   },
   {
@@ -16393,7 +17453,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 20.5,
+    "attack": 10,
+    "defense": 230,
+    "specialAttack": 10,
+    "specialDefense": 230,
     "speed": 5
   },
   {
@@ -16477,7 +17542,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 54.0,
+    "attack": 125,
+    "defense": 75,
+    "specialAttack": 40,
+    "specialDefense": 95,
     "speed": 85
   },
   {
@@ -16578,7 +17648,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 28.0,
+    "attack": 95,
+    "defense": 55,
+    "specialAttack": 35,
+    "specialDefense": 75,
     "speed": 115
   },
   {
@@ -16634,7 +17709,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.8,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 40
   },
   {
@@ -16690,7 +17770,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 125.8,
+    "attack": 130,
+    "defense": 75,
+    "specialAttack": 75,
+    "specialDefense": 75,
     "speed": 55
   },
   {
@@ -16764,7 +17849,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 35.0,
+    "attack": 40,
+    "defense": 40,
+    "specialAttack": 70,
+    "specialDefense": 40,
     "speed": 20
   },
   {
@@ -16851,7 +17941,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 55.0,
+    "attack": 50,
+    "defense": 120,
+    "specialAttack": 90,
+    "specialDefense": 80,
     "speed": 30
   },
   {
@@ -16961,7 +18056,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.5,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 50
   },
   {
@@ -17071,7 +18171,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 55.8,
+    "attack": 100,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 50
   },
   {
@@ -17158,7 +18263,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 5.0,
+    "attack": 55,
+    "defense": 95,
+    "specialAttack": 65,
+    "specialDefense": 95,
     "speed": 35
   },
   {
@@ -17224,7 +18334,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 12.0,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 35,
     "speed": 65
   },
   {
@@ -17290,7 +18405,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 28.5,
+    "attack": 105,
+    "defense": 75,
+    "specialAttack": 105,
+    "specialDefense": 75,
     "speed": 45
   },
   {
@@ -17370,7 +18490,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 16.0,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 65,
+    "specialDefense": 45,
     "speed": 75
   },
   {
@@ -17449,7 +18574,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 220.0,
+    "attack": 40,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 140,
     "speed": 70
   },
   {
@@ -17521,7 +18651,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 50.5,
+    "attack": 80,
+    "defense": 140,
+    "specialAttack": 40,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -17608,7 +18743,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.8,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 80,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -17695,7 +18835,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 35.0,
+    "attack": 90,
+    "defense": 50,
+    "specialAttack": 110,
+    "specialDefense": 80,
     "speed": 95
   },
   {
@@ -17773,7 +18918,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 152.0,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 95,
     "speed": 85
   },
   {
@@ -17847,7 +18997,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 33.5,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 40
   },
   {
@@ -17921,7 +19076,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 120.0,
+    "attack": 120,
+    "defense": 120,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 50
   },
   {
@@ -17977,7 +19137,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 32.5,
+    "attack": 80,
+    "defense": 90,
+    "specialAttack": 105,
+    "specialDefense": 95,
     "speed": 60
   },
   {
@@ -18026,7 +19191,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 71.2,
+    "attack": 95,
+    "defense": 62,
+    "specialAttack": 85,
+    "specialDefense": 65,
     "speed": 85
   },
   {
@@ -18068,7 +19238,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 58.0,
+    "attack": 20,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 45,
     "speed": 75
   },
   {
@@ -18158,7 +19333,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 21.0,
+    "attack": 35,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 35
   },
   {
@@ -18248,7 +19428,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 48.0,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 35,
+    "specialDefense": 110,
     "speed": 70
   },
   {
@@ -18343,7 +19528,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.0,
+    "attack": 30,
+    "defense": 15,
+    "specialAttack": 85,
+    "specialDefense": 65,
     "speed": 65
   },
   {
@@ -18404,7 +19594,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 23.5,
+    "attack": 63,
+    "defense": 37,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 95
   },
   {
@@ -18481,7 +19676,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 21.4,
+    "attack": 75,
+    "defense": 37,
+    "specialAttack": 70,
+    "specialDefense": 55,
     "speed": 83
   },
   {
@@ -18523,7 +19723,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 75.5,
+    "attack": 80,
+    "defense": 105,
+    "specialAttack": 40,
+    "specialDefense": 70,
     "speed": 100
   },
   {
@@ -18579,7 +19784,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 46.8,
+    "attack": 10,
+    "defense": 10,
+    "specialAttack": 75,
+    "specialDefense": 135,
     "speed": 55
   },
   {
@@ -18626,7 +19836,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 178.0,
+    "attack": 85,
+    "defense": 75,
+    "specialAttack": 115,
+    "specialDefense": 100,
     "speed": 115
   },
   {
@@ -18689,7 +19904,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 198.0,
+    "attack": 115,
+    "defense": 85,
+    "specialAttack": 90,
+    "specialDefense": 75,
     "speed": 100
   },
   {
@@ -18744,7 +19964,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 187.0,
+    "attack": 75,
+    "defense": 115,
+    "specialAttack": 90,
+    "specialDefense": 115,
     "speed": 85
   },
   {
@@ -18850,7 +20075,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 72.0,
+    "attack": 64,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 50,
     "speed": 41
   },
   {
@@ -18952,7 +20182,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.2,
     "weightKg": 152.0,
+    "attack": 84,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 70,
     "speed": 51
   },
   {
@@ -19054,7 +20289,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 202.0,
+    "attack": 134,
+    "defense": 110,
+    "specialAttack": 95,
+    "specialDefense": 100,
     "speed": 61
   },
   {
@@ -19126,7 +20366,12 @@
         "hidden": true
       }
     ],
+    "heightM": 5.2,
     "weightKg": 216.0,
+    "attack": 90,
+    "defense": 130,
+    "specialAttack": 90,
+    "specialDefense": 154,
     "speed": 110
   },
   {
@@ -19194,7 +20439,12 @@
         "hidden": true
       }
     ],
+    "heightM": 3.8,
     "weightKg": 199.0,
+    "attack": 130,
+    "defense": 90,
+    "specialAttack": 110,
+    "specialDefense": 154,
     "speed": 90
   },
   {
@@ -19274,7 +20524,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 5.0,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -19355,7 +20610,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.0,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 70
   },
   {
@@ -19436,7 +20696,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 21.6,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 85,
+    "specialDefense": 65,
     "speed": 95
   },
   {
@@ -19517,7 +20782,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 52.2,
+    "attack": 85,
+    "defense": 65,
+    "specialAttack": 105,
+    "specialDefense": 85,
     "speed": 120
   },
   {
@@ -19594,7 +20864,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 2.5,
+    "attack": 60,
+    "defense": 40,
+    "specialAttack": 70,
+    "specialDefense": 50,
     "speed": 45
   },
   {
@@ -19688,7 +20963,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 19.5,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 85,
+    "specialDefense": 60,
     "speed": 55
   },
   {
@@ -19782,7 +21062,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 52.0,
+    "attack": 120,
+    "defense": 70,
+    "specialAttack": 110,
+    "specialDefense": 70,
     "speed": 80
   },
   {
@@ -19851,7 +21136,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.6,
+    "attack": 70,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 40
   },
   {
@@ -19929,7 +21219,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 28.0,
+    "attack": 85,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 50
   },
   {
@@ -20007,7 +21302,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 81.9,
+    "attack": 110,
+    "defense": 90,
+    "specialAttack": 85,
+    "specialDefense": 90,
     "speed": 60
   },
   {
@@ -20073,7 +21373,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 13.6,
+    "attack": 55,
+    "defense": 35,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 35
   },
   {
@@ -20139,7 +21444,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 37.0,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 70
   },
   {
@@ -20195,7 +21505,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 17.5,
+    "attack": 30,
+    "defense": 41,
+    "specialAttack": 30,
+    "specialDefense": 41,
     "speed": 60
   },
   {
@@ -20251,7 +21566,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 32.5,
+    "attack": 70,
+    "defense": 61,
+    "specialAttack": 50,
+    "specialDefense": 61,
     "speed": 100
   },
   {
@@ -20337,7 +21657,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.6,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 30,
     "speed": 20
   },
   {
@@ -20419,7 +21744,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.0,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 15
   },
   {
@@ -20522,7 +21852,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 28.4,
+    "attack": 70,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -20604,7 +21939,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.7,
     "weightKg": 11.5,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 15
   },
   {
@@ -20699,7 +22039,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 31.6,
+    "attack": 50,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 90,
     "speed": 65
   },
   {
@@ -20781,7 +22126,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 2.6,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 30
   },
   {
@@ -20863,7 +22213,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 32.5,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 50
   },
   {
@@ -20945,7 +22300,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 55.0,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 90,
+    "specialDefense": 100,
     "speed": 70
   },
   {
@@ -21030,7 +22390,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 4.0,
+    "attack": 40,
+    "defense": 50,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 30
   },
   {
@@ -21132,7 +22497,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 28.0,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 60,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -21234,7 +22604,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 59.6,
+    "attack": 100,
+    "defense": 60,
+    "specialAttack": 90,
+    "specialDefense": 60,
     "speed": 80
   },
   {
@@ -21301,7 +22676,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.3,
+    "attack": 55,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 85
   },
   {
@@ -21368,7 +22748,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 19.8,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 50,
     "speed": 125
   },
   {
@@ -21447,7 +22832,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 9.5,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 55,
+    "specialDefense": 30,
     "speed": 85
   },
   {
@@ -21526,7 +22916,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 28.0,
+    "attack": 50,
+    "defense": 100,
+    "specialAttack": 95,
+    "specialDefense": 70,
     "speed": 65
   },
   {
@@ -21614,7 +23009,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.6,
+    "attack": 25,
+    "defense": 25,
+    "specialAttack": 45,
+    "specialDefense": 35,
     "speed": 40
   },
   {
@@ -21702,7 +23102,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 20.2,
+    "attack": 35,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 50
   },
   {
@@ -21790,7 +23195,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 48.4,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 125,
+    "specialDefense": 115,
     "speed": 80
   },
   {
@@ -21869,7 +23279,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 1.7,
+    "attack": 30,
+    "defense": 32,
+    "specialAttack": 50,
+    "specialDefense": 52,
     "speed": 65
   },
   {
@@ -21952,7 +23367,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 3.6,
+    "attack": 60,
+    "defense": 62,
+    "specialAttack": 100,
+    "specialDefense": 82,
     "speed": 80
   },
   {
@@ -22030,7 +23450,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.5,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 60,
     "speed": 35
   },
   {
@@ -22129,7 +23554,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 39.2,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 70
   },
   {
@@ -22177,7 +23607,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.8,
     "weightKg": 24.0,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 30
   },
   {
@@ -22225,7 +23660,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 46.5,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 90
   },
   {
@@ -22273,7 +23713,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 130.5,
+    "attack": 160,
+    "defense": 100,
+    "specialAttack": 95,
+    "specialDefense": 65,
     "speed": 100
   },
   {
@@ -22370,7 +23815,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.5,
+    "attack": 45,
+    "defense": 90,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 40
   },
   {
@@ -22459,7 +23909,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 12.0,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 160
   },
   {
@@ -22540,7 +23995,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.8,
     "weightKg": 1.2,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 40
   },
   {
@@ -22592,7 +24052,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 16.3,
+    "attack": 51,
+    "defense": 23,
+    "specialAttack": 51,
+    "specialDefense": 23,
     "speed": 28
   },
   {
@@ -22644,7 +24109,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 40.5,
+    "attack": 71,
+    "defense": 43,
+    "specialAttack": 71,
+    "specialDefense": 43,
     "speed": 48
   },
   {
@@ -22696,7 +24166,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 84.0,
+    "attack": 91,
+    "defense": 63,
+    "specialAttack": 91,
+    "specialDefense": 73,
     "speed": 68
   },
   {
@@ -22774,7 +24249,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 86.4,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 30,
     "speed": 25
   },
   {
@@ -22852,7 +24332,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.3,
     "weightKg": 253.8,
+    "attack": 120,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 60,
     "speed": 50
   },
   {
@@ -22926,7 +24411,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 2.0,
+    "attack": 20,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 40,
     "speed": 20
   },
   {
@@ -23008,7 +24498,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 97.0,
+    "attack": 45,
+    "defense": 135,
+    "specialAttack": 45,
+    "specialDefense": 90,
     "speed": 30
   },
   {
@@ -23057,7 +24552,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.0,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 50
   },
   {
@@ -23106,7 +24606,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 32.6,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 90
   },
   {
@@ -23158,7 +24663,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 11.0,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 65,
+    "specialDefense": 65,
     "speed": 50
   },
   {
@@ -23230,7 +24740,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.5,
+    "attack": 85,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 50
   },
   {
@@ -23320,7 +24835,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 60.0,
+    "attack": 70,
+    "defense": 100,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 30
   },
   {
@@ -23410,7 +24930,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 120.0,
+    "attack": 90,
+    "defense": 140,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 40
   },
   {
@@ -23500,7 +25025,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 360.0,
+    "attack": 110,
+    "defense": 180,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 50
   },
   {
@@ -23583,7 +25113,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.2,
+    "attack": 40,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 55,
     "speed": 60
   },
   {
@@ -23666,7 +25201,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 31.5,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
     "speed": 80
   },
   {
@@ -23724,7 +25264,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 15.2,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 65,
+    "specialDefense": 40,
     "speed": 65
   },
   {
@@ -23782,7 +25327,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 40.2,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 105,
+    "specialDefense": 60,
     "speed": 105
   },
   {
@@ -23829,7 +25379,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.2,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 95
   },
   {
@@ -23876,7 +25431,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.2,
+    "attack": 40,
+    "defense": 50,
+    "specialAttack": 75,
+    "specialDefense": 85,
     "speed": 95
   },
   {
@@ -23939,7 +25499,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 17.7,
+    "attack": 73,
+    "defense": 75,
+    "specialAttack": 47,
+    "specialDefense": 85,
     "speed": 85
   },
   {
@@ -24002,7 +25567,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 17.7,
+    "attack": 47,
+    "defense": 75,
+    "specialAttack": 73,
+    "specialDefense": 85,
     "speed": 85
   },
   {
@@ -24092,7 +25662,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.0,
+    "attack": 60,
+    "defense": 45,
+    "specialAttack": 100,
+    "specialDefense": 80,
     "speed": 65
   },
   {
@@ -24154,7 +25729,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 10.3,
+    "attack": 43,
+    "defense": 53,
+    "specialAttack": 43,
+    "specialDefense": 53,
     "speed": 40
   },
   {
@@ -24216,7 +25796,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 80.0,
+    "attack": 73,
+    "defense": 83,
+    "specialAttack": 73,
+    "specialDefense": 83,
     "speed": 55
   },
   {
@@ -24299,7 +25884,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 20.8,
+    "attack": 90,
+    "defense": 20,
+    "specialAttack": 65,
+    "specialDefense": 20,
     "speed": 65
   },
   {
@@ -24382,7 +25972,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 88.8,
+    "attack": 120,
+    "defense": 40,
+    "specialAttack": 95,
+    "specialDefense": 40,
     "speed": 95
   },
   {
@@ -24448,7 +26043,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 130.0,
+    "attack": 70,
+    "defense": 35,
+    "specialAttack": 70,
+    "specialDefense": 35,
     "speed": 60
   },
   {
@@ -24514,7 +26114,12 @@
         "hidden": true
       }
     ],
+    "heightM": 14.5,
     "weightKg": 398.0,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 90,
+    "specialDefense": 45,
     "speed": 60
   },
   {
@@ -24601,7 +26206,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 24.0,
+    "attack": 60,
+    "defense": 40,
+    "specialAttack": 65,
+    "specialDefense": 45,
     "speed": 35
   },
   {
@@ -24688,7 +26298,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 220.0,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 105,
+    "specialDefense": 75,
     "speed": 40
   },
   {
@@ -24755,7 +26370,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 80.4,
+    "attack": 85,
+    "defense": 140,
+    "specialAttack": 85,
+    "specialDefense": 70,
     "speed": 20
   },
   {
@@ -24821,7 +26441,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 30.6,
+    "attack": 25,
+    "defense": 35,
+    "specialAttack": 70,
+    "specialDefense": 80,
     "speed": 60
   },
   {
@@ -24887,7 +26512,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 71.5,
+    "attack": 45,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 110,
     "speed": 80
   },
   {
@@ -24929,7 +26559,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 5.0,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 60
   },
   {
@@ -25014,7 +26649,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 15.0,
+    "attack": 100,
+    "defense": 45,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 10
   },
   {
@@ -25096,7 +26736,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.1,
     "weightKg": 15.3,
+    "attack": 70,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 70
   },
   {
@@ -25178,7 +26823,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 82.0,
+    "attack": 100,
+    "defense": 80,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 100
   },
   {
@@ -25252,7 +26902,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 51.3,
+    "attack": 85,
+    "defense": 40,
+    "specialAttack": 85,
+    "specialDefense": 40,
     "speed": 35
   },
   {
@@ -25343,7 +26998,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 77.4,
+    "attack": 115,
+    "defense": 60,
+    "specialAttack": 115,
+    "specialDefense": 60,
     "speed": 55
   },
   {
@@ -25410,7 +27070,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 1.2,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 75,
     "speed": 50
   },
   {
@@ -25485,7 +27150,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 20.6,
+    "attack": 70,
+    "defense": 90,
+    "specialAttack": 70,
+    "specialDefense": 105,
     "speed": 80
   },
   {
@@ -25523,7 +27193,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 40.3,
+    "attack": 115,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 90
   },
   {
@@ -25574,7 +27249,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.7,
     "weightKg": 52.5,
+    "attack": 100,
+    "defense": 60,
+    "specialAttack": 100,
+    "specialDefense": 60,
     "speed": 65
   },
   {
@@ -25658,7 +27338,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.0,
     "weightKg": 168.0,
+    "attack": 55,
+    "defense": 65,
+    "specialAttack": 95,
+    "specialDefense": 85,
     "speed": 70
   },
   {
@@ -25742,7 +27427,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.2,
     "weightKg": 154.0,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 70
   },
   {
@@ -25817,7 +27507,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 1.9,
+    "attack": 48,
+    "defense": 43,
+    "specialAttack": 46,
+    "specialDefense": 41,
     "speed": 60
   },
   {
@@ -25892,7 +27587,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 23.6,
+    "attack": 78,
+    "defense": 73,
+    "specialAttack": 76,
+    "specialDefense": 71,
     "speed": 60
   },
   {
@@ -25958,7 +27658,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.5,
+    "attack": 80,
+    "defense": 65,
+    "specialAttack": 50,
+    "specialDefense": 35,
     "speed": 35
   },
   {
@@ -26045,7 +27750,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 32.8,
+    "attack": 120,
+    "defense": 85,
+    "specialAttack": 90,
+    "specialDefense": 55,
     "speed": 55
   },
   {
@@ -26132,7 +27842,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 21.5,
+    "attack": 40,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 70,
     "speed": 55
   },
   {
@@ -26219,7 +27934,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 108.0,
+    "attack": 70,
+    "defense": 105,
+    "specialAttack": 70,
+    "specialDefense": 120,
     "speed": 75
   },
   {
@@ -26306,7 +28026,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 23.8,
+    "attack": 41,
+    "defense": 77,
+    "specialAttack": 61,
+    "specialDefense": 87,
     "speed": 23
   },
   {
@@ -26393,7 +28118,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 60.4,
+    "attack": 81,
+    "defense": 97,
+    "specialAttack": 81,
+    "specialDefense": 107,
     "speed": 43
   },
   {
@@ -26476,7 +28206,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 12.5,
+    "attack": 95,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 75
   },
   {
@@ -26559,7 +28294,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 68.2,
+    "attack": 125,
+    "defense": 100,
+    "specialAttack": 70,
+    "specialDefense": 80,
     "speed": 45
   },
   {
@@ -26625,7 +28365,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.4,
+    "attack": 15,
+    "defense": 20,
+    "specialAttack": 10,
+    "specialDefense": 55,
     "speed": 80
   },
   {
@@ -26691,7 +28436,12 @@
         "hidden": true
       }
     ],
+    "heightM": 6.2,
     "weightKg": 162.0,
+    "attack": 60,
+    "defense": 79,
+    "specialAttack": 100,
+    "specialDefense": 125,
     "speed": 81
   },
   {
@@ -26725,7 +28475,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.8,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 70,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -26763,7 +28518,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 22.0,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 120,
     "speed": 40
   },
   {
@@ -26825,7 +28585,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 2.3,
+    "attack": 75,
+    "defense": 35,
+    "specialAttack": 63,
+    "specialDefense": 33,
     "speed": 45
   },
   {
@@ -26887,7 +28652,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 12.5,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 83,
+    "specialDefense": 63,
     "speed": 65
   },
   {
@@ -26952,7 +28722,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 15.0,
+    "attack": 40,
+    "defense": 90,
+    "specialAttack": 30,
+    "specialDefense": 90,
     "speed": 25
   },
   {
@@ -27017,7 +28792,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 30.6,
+    "attack": 70,
+    "defense": 130,
+    "specialAttack": 60,
+    "specialDefense": 130,
     "speed": 25
   },
   {
@@ -27101,7 +28881,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 100.0,
+    "attack": 68,
+    "defense": 83,
+    "specialAttack": 72,
+    "specialDefense": 87,
     "speed": 51
   },
   {
@@ -27159,7 +28944,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 1.0,
+    "attack": 50,
+    "defense": 80,
+    "specialAttack": 95,
+    "specialDefense": 90,
     "speed": 65
   },
   {
@@ -27218,7 +29008,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 47.0,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 60,
     "speed": 75
   },
   {
@@ -27280,7 +29075,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 14.0,
+    "attack": 23,
+    "defense": 48,
+    "specialAttack": 23,
+    "specialDefense": 48,
     "speed": 23
   },
   {
@@ -27364,7 +29164,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 16.8,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 50
   },
   {
@@ -27448,7 +29253,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 256.5,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 80
   },
   {
@@ -27542,7 +29352,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 39.5,
+    "attack": 40,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 50,
     "speed": 25
   },
   {
@@ -27636,7 +29451,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 87.6,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 75,
+    "specialDefense": 70,
     "speed": 45
   },
   {
@@ -27730,7 +29550,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 150.6,
+    "attack": 80,
+    "defense": 90,
+    "specialAttack": 95,
+    "specialDefense": 90,
     "speed": 65
   },
   {
@@ -27798,7 +29623,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 52.5,
+    "attack": 64,
+    "defense": 85,
+    "specialAttack": 74,
+    "specialDefense": 55,
     "speed": 32
   },
   {
@@ -27866,7 +29696,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 27.0,
+    "attack": 104,
+    "defense": 105,
+    "specialAttack": 94,
+    "specialDefense": 75,
     "speed": 52
   },
   {
@@ -27934,7 +29769,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 22.6,
+    "attack": 84,
+    "defense": 105,
+    "specialAttack": 114,
+    "specialDefense": 75,
     "speed": 52
   },
   {
@@ -28014,7 +29854,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 23.4,
+    "attack": 90,
+    "defense": 130,
+    "specialAttack": 45,
+    "specialDefense": 65,
     "speed": 55
   },
   {
@@ -28069,7 +29914,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.7,
+    "attack": 30,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 65,
     "speed": 97
   },
   {
@@ -28134,7 +29984,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 42.1,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 30,
     "speed": 50
   },
   {
@@ -28199,7 +30054,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 110.5,
+    "attack": 95,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 50,
     "speed": 50
   },
   {
@@ -28281,7 +30141,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 102.6,
+    "attack": 135,
+    "defense": 80,
+    "specialAttack": 110,
+    "specialDefense": 80,
     "speed": 100
   },
   {
@@ -28367,7 +30232,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 95.2,
+    "attack": 55,
+    "defense": 80,
+    "specialAttack": 35,
+    "specialDefense": 60,
     "speed": 30
   },
   {
@@ -28453,7 +30323,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 202.5,
+    "attack": 75,
+    "defense": 100,
+    "specialAttack": 55,
+    "specialDefense": 80,
     "speed": 50
   },
   {
@@ -28539,7 +30414,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 550.0,
+    "attack": 135,
+    "defense": 130,
+    "specialAttack": 95,
+    "specialDefense": 90,
     "speed": 70
   },
   {
@@ -28610,7 +30490,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 230.0,
+    "attack": 100,
+    "defense": 200,
+    "specialAttack": 50,
+    "specialDefense": 100,
     "speed": 50
   },
   {
@@ -28677,7 +30562,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 175.0,
+    "attack": 50,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 200,
     "speed": 50
   },
   {
@@ -28736,7 +30626,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 205.0,
+    "attack": 75,
+    "defense": 150,
+    "specialAttack": 75,
+    "specialDefense": 150,
     "speed": 50
   },
   {
@@ -28804,7 +30699,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 40.0,
+    "attack": 80,
+    "defense": 90,
+    "specialAttack": 110,
+    "specialDefense": 130,
     "speed": 110
   },
   {
@@ -28872,7 +30772,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 60.0,
+    "attack": 90,
+    "defense": 80,
+    "specialAttack": 130,
+    "specialDefense": 110,
     "speed": 110
   },
   {
@@ -28923,7 +30828,12 @@
         "hidden": false
       }
     ],
+    "heightM": 4.5,
     "weightKg": 352.0,
+    "attack": 100,
+    "defense": 90,
+    "specialAttack": 150,
+    "specialDefense": 140,
     "speed": 90
   },
   {
@@ -28986,7 +30896,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.5,
     "weightKg": 950.0,
+    "attack": 150,
+    "defense": 140,
+    "specialAttack": 100,
+    "specialDefense": 90,
     "speed": 90
   },
   {
@@ -29050,7 +30965,12 @@
         "hidden": false
       }
     ],
+    "heightM": 7.0,
     "weightKg": 206.5,
+    "attack": 150,
+    "defense": 90,
+    "specialAttack": 150,
+    "specialDefense": 90,
     "speed": 95
   },
   {
@@ -29118,7 +31038,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.1,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -29169,7 +31094,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.7,
     "weightKg": 60.8,
+    "attack": 150,
+    "defense": 50,
+    "specialAttack": 150,
+    "specialDefense": 50,
     "speed": 150
   },
   {
@@ -29250,7 +31180,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 10.2,
+    "attack": 68,
+    "defense": 64,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 31
   },
   {
@@ -29331,7 +31266,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 97.0,
+    "attack": 89,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 36
   },
   {
@@ -29425,7 +31365,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 310.0,
+    "attack": 109,
+    "defense": 105,
+    "specialAttack": 75,
+    "specialDefense": 85,
     "speed": 56
   },
   {
@@ -29502,7 +31447,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 6.2,
+    "attack": 58,
+    "defense": 44,
+    "specialAttack": 58,
+    "specialDefense": 44,
     "speed": 61
   },
   {
@@ -29596,7 +31546,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 22.0,
+    "attack": 78,
+    "defense": 52,
+    "specialAttack": 78,
+    "specialDefense": 52,
     "speed": 81
   },
   {
@@ -29690,7 +31645,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 55.0,
+    "attack": 104,
+    "defense": 71,
+    "specialAttack": 104,
+    "specialDefense": 71,
     "speed": 108
   },
   {
@@ -29759,7 +31719,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.2,
+    "attack": 51,
+    "defense": 53,
+    "specialAttack": 61,
+    "specialDefense": 56,
     "speed": 40
   },
   {
@@ -29828,7 +31793,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 23.0,
+    "attack": 66,
+    "defense": 68,
+    "specialAttack": 81,
+    "specialDefense": 76,
     "speed": 50
   },
   {
@@ -29910,7 +31880,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 84.5,
+    "attack": 86,
+    "defense": 88,
+    "specialAttack": 111,
+    "specialDefense": 101,
     "speed": 60
   },
   {
@@ -29984,7 +31959,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.0,
+    "attack": 55,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 60
   },
   {
@@ -30058,7 +32038,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 15.5,
+    "attack": 75,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 80
   },
   {
@@ -30132,7 +32117,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 24.9,
+    "attack": 120,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 60,
     "speed": 100
   },
   {
@@ -30181,7 +32171,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 20.0,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 40,
     "speed": 31
   },
   {
@@ -30252,7 +32247,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 31.5,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 55,
+    "specialDefense": 60,
     "speed": 71
   },
   {
@@ -30318,7 +32318,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.2,
+    "attack": 25,
+    "defense": 41,
+    "specialAttack": 25,
+    "specialDefense": 41,
     "speed": 25
   },
   {
@@ -30384,7 +32389,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 25.5,
+    "attack": 85,
+    "defense": 51,
+    "specialAttack": 55,
+    "specialDefense": 51,
     "speed": 65
   },
   {
@@ -30449,7 +32459,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.5,
+    "attack": 65,
+    "defense": 34,
+    "specialAttack": 40,
+    "specialDefense": 34,
     "speed": 45
   },
   {
@@ -30514,7 +32529,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 30.5,
+    "attack": 85,
+    "defense": 49,
+    "specialAttack": 60,
+    "specialDefense": 49,
     "speed": 60
   },
   {
@@ -30579,7 +32599,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 42.0,
+    "attack": 120,
+    "defense": 79,
+    "specialAttack": 95,
+    "specialDefense": 79,
     "speed": 70
   },
   {
@@ -30669,7 +32694,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 1.2,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 50,
+    "specialDefense": 70,
     "speed": 55
   },
   {
@@ -30759,7 +32789,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 14.5,
+    "attack": 70,
+    "defense": 65,
+    "specialAttack": 125,
+    "specialDefense": 105,
     "speed": 90
   },
   {
@@ -30837,7 +32872,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 31.5,
+    "attack": 125,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 58
   },
   {
@@ -30915,7 +32955,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 102.5,
+    "attack": 165,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 50,
     "speed": 58
   },
   {
@@ -30994,7 +33039,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 57.0,
+    "attack": 42,
+    "defense": 118,
+    "specialAttack": 42,
+    "specialDefense": 88,
     "speed": 30
   },
   {
@@ -31073,7 +33123,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 149.5,
+    "attack": 52,
+    "defense": 168,
+    "specialAttack": 47,
+    "specialDefense": 138,
     "speed": 30
   },
   {
@@ -31145,7 +33200,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 3.4,
+    "attack": 29,
+    "defense": 45,
+    "specialAttack": 29,
+    "specialDefense": 45,
     "speed": 36
   },
   {
@@ -31242,7 +33302,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 6.5,
+    "attack": 59,
+    "defense": 85,
+    "specialAttack": 79,
+    "specialDefense": 105,
     "speed": 36
   },
   {
@@ -31331,7 +33396,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 23.3,
+    "attack": 94,
+    "defense": 50,
+    "specialAttack": 94,
+    "specialDefense": 50,
     "speed": 66
   },
   {
@@ -31414,7 +33484,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 5.5,
+    "attack": 30,
+    "defense": 42,
+    "specialAttack": 30,
+    "specialDefense": 42,
     "speed": 70
   },
   {
@@ -31497,7 +33572,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 38.5,
+    "attack": 80,
+    "defense": 102,
+    "specialAttack": 80,
+    "specialDefense": 102,
     "speed": 40
   },
   {
@@ -31548,7 +33628,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 3.9,
+    "attack": 45,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 90,
     "speed": 95
   },
   {
@@ -31610,7 +33695,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 29.5,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 60,
+    "specialDefense": 30,
     "speed": 85
   },
   {
@@ -31672,7 +33762,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 33.5,
+    "attack": 105,
+    "defense": 55,
+    "specialAttack": 85,
+    "specialDefense": 50,
     "speed": 115
   },
   {
@@ -31742,7 +33837,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 3.3,
+    "attack": 35,
+    "defense": 45,
+    "specialAttack": 62,
+    "specialDefense": 53,
     "speed": 35
   },
   {
@@ -31812,7 +33912,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.3,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 87,
+    "specialDefense": 78,
     "speed": 85
   },
   {
@@ -31878,7 +33983,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 6.3,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 57,
+    "specialDefense": 62,
     "speed": 34
   },
   {
@@ -31953,7 +34063,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 29.9,
+    "attack": 83,
+    "defense": 68,
+    "specialAttack": 92,
+    "specialDefense": 82,
     "speed": 39
   },
   {
@@ -32002,7 +34117,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 20.3,
+    "attack": 100,
+    "defense": 66,
+    "specialAttack": 60,
+    "specialDefense": 66,
     "speed": 115
   },
   {
@@ -32089,7 +34209,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 1.2,
+    "attack": 50,
+    "defense": 34,
+    "specialAttack": 60,
+    "specialDefense": 44,
     "speed": 70
   },
   {
@@ -32176,7 +34301,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 15.0,
+    "attack": 80,
+    "defense": 44,
+    "specialAttack": 90,
+    "specialDefense": 54,
     "speed": 80
   },
   {
@@ -32225,7 +34355,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.5,
+    "attack": 66,
+    "defense": 44,
+    "specialAttack": 44,
+    "specialDefense": 56,
     "speed": 85
   },
   {
@@ -32274,7 +34409,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 33.3,
+    "attack": 76,
+    "defense": 84,
+    "specialAttack": 54,
+    "specialDefense": 96,
     "speed": 105
   },
   {
@@ -32328,7 +34468,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.9,
     "weightKg": 4.4,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 105,
+    "specialDefense": 105,
     "speed": 105
   },
   {
@@ -32411,7 +34556,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 27.3,
+    "attack": 125,
+    "defense": 52,
+    "specialAttack": 105,
+    "specialDefense": 52,
     "speed": 71
   },
   {
@@ -32460,7 +34610,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 3.9,
+    "attack": 55,
+    "defense": 42,
+    "specialAttack": 42,
+    "specialDefense": 37,
     "speed": 85
   },
   {
@@ -32509,7 +34664,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 43.8,
+    "attack": 82,
+    "defense": 64,
+    "specialAttack": 64,
+    "specialDefense": 59,
     "speed": 112
   },
   {
@@ -32567,7 +34727,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.6,
+    "attack": 30,
+    "defense": 50,
+    "specialAttack": 65,
+    "specialDefense": 50,
     "speed": 45
   },
   {
@@ -32634,7 +34799,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 19.2,
+    "attack": 63,
+    "defense": 47,
+    "specialAttack": 41,
+    "specialDefense": 41,
     "speed": 74
   },
   {
@@ -32701,7 +34871,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 38.0,
+    "attack": 93,
+    "defense": 67,
+    "specialAttack": 71,
+    "specialDefense": 61,
     "speed": 84
   },
   {
@@ -32784,7 +34959,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 60.5,
+    "attack": 24,
+    "defense": 86,
+    "specialAttack": 24,
+    "specialDefense": 86,
     "speed": 23
   },
   {
@@ -32867,7 +35047,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 187.0,
+    "attack": 89,
+    "defense": 116,
+    "specialAttack": 79,
+    "specialDefense": 116,
     "speed": 33
   },
   {
@@ -32949,7 +35134,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 15.0,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 10,
+    "specialDefense": 45,
     "speed": 10
   },
   {
@@ -33031,7 +35221,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 13.0,
+    "attack": 25,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 90,
     "speed": 60
   },
   {
@@ -33087,7 +35282,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 24.4,
+    "attack": 5,
+    "defense": 5,
+    "specialAttack": 15,
+    "specialDefense": 65,
     "speed": 30
   },
   {
@@ -33151,7 +35351,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 1.9,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 92,
+    "specialDefense": 42,
     "speed": 91
   },
   {
@@ -33199,7 +35404,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 108.0,
+    "attack": 92,
+    "defense": 108,
+    "specialAttack": 92,
+    "specialDefense": 108,
     "speed": 35
   },
   {
@@ -33285,7 +35495,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 20.5,
+    "attack": 70,
+    "defense": 45,
+    "specialAttack": 40,
+    "specialDefense": 45,
     "speed": 42
   },
   {
@@ -33371,7 +35586,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 56.0,
+    "attack": 90,
+    "defense": 65,
+    "specialAttack": 50,
+    "specialDefense": 55,
     "speed": 82
   },
   {
@@ -33457,7 +35677,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 95.0,
+    "attack": 130,
+    "defense": 95,
+    "specialAttack": 80,
+    "specialDefense": 85,
     "speed": 102
   },
   {
@@ -33506,7 +35731,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 105.0,
+    "attack": 85,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 85,
     "speed": 5
   },
   {
@@ -33584,7 +35814,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 20.2,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -33667,7 +35902,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 54.0,
+    "attack": 110,
+    "defense": 70,
+    "specialAttack": 115,
+    "specialDefense": 70,
     "speed": 90
   },
   {
@@ -33741,7 +35981,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 49.5,
+    "attack": 72,
+    "defense": 78,
+    "specialAttack": 38,
+    "specialDefense": 42,
     "speed": 32
   },
   {
@@ -33815,7 +36060,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 300.0,
+    "attack": 112,
+    "defense": 118,
+    "specialAttack": 68,
+    "specialDefense": 72,
     "speed": 47
   },
   {
@@ -33894,7 +36144,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 12.0,
+    "attack": 50,
+    "defense": 90,
+    "specialAttack": 30,
+    "specialDefense": 55,
     "speed": 65
   },
   {
@@ -33961,7 +36216,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 61.5,
+    "attack": 90,
+    "defense": 110,
+    "specialAttack": 60,
+    "specialDefense": 75,
     "speed": 95
   },
   {
@@ -34048,7 +36308,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 23.0,
+    "attack": 61,
+    "defense": 40,
+    "specialAttack": 61,
+    "specialDefense": 40,
     "speed": 50
   },
   {
@@ -34135,7 +36400,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 44.4,
+    "attack": 106,
+    "defense": 65,
+    "specialAttack": 86,
+    "specialDefense": 65,
     "speed": 85
   },
   {
@@ -34198,7 +36468,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 27.0,
+    "attack": 100,
+    "defense": 72,
+    "specialAttack": 90,
+    "specialDefense": 72,
     "speed": 46
   },
   {
@@ -34264,7 +36539,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.0,
+    "attack": 49,
+    "defense": 56,
+    "specialAttack": 49,
+    "specialDefense": 61,
     "speed": 66
   },
   {
@@ -34330,7 +36610,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 24.0,
+    "attack": 69,
+    "defense": 76,
+    "specialAttack": 69,
+    "specialDefense": 86,
     "speed": 91
   },
   {
@@ -34409,7 +36694,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 65.0,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 60,
+    "specialDefense": 120,
     "speed": 50
   },
   {
@@ -34504,7 +36794,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 50.5,
+    "attack": 62,
+    "defense": 50,
+    "specialAttack": 62,
+    "specialDefense": 60,
     "speed": 40
   },
   {
@@ -34599,7 +36894,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 135.5,
+    "attack": 92,
+    "defense": 75,
+    "specialAttack": 92,
+    "specialDefense": 85,
     "speed": 60
   },
   {
@@ -34696,7 +36996,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 34.0,
+    "attack": 120,
+    "defense": 65,
+    "specialAttack": 45,
+    "specialDefense": 85,
     "speed": 125
   },
   {
@@ -34782,7 +37087,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 180.0,
+    "attack": 70,
+    "defense": 115,
+    "specialAttack": 130,
+    "specialDefense": 90,
     "speed": 60
   },
   {
@@ -34831,7 +37141,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 140.0,
+    "attack": 85,
+    "defense": 95,
+    "specialAttack": 80,
+    "specialDefense": 95,
     "speed": 50
   },
   {
@@ -34941,7 +37256,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.4,
     "weightKg": 282.8,
+    "attack": 140,
+    "defense": 130,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 40
   },
   {
@@ -35019,7 +37339,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 128.6,
+    "attack": 100,
+    "defense": 125,
+    "specialAttack": 110,
+    "specialDefense": 50,
     "speed": 50
   },
   {
@@ -35080,7 +37405,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 138.6,
+    "attack": 123,
+    "defense": 67,
+    "specialAttack": 95,
+    "specialDefense": 85,
     "speed": 95
   },
   {
@@ -35157,7 +37487,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 68.0,
+    "attack": 95,
+    "defense": 67,
+    "specialAttack": 125,
+    "specialDefense": 95,
     "speed": 83
   },
   {
@@ -35251,7 +37586,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 38.0,
+    "attack": 50,
+    "defense": 95,
+    "specialAttack": 120,
+    "specialDefense": 115,
     "speed": 80
   },
   {
@@ -35338,7 +37678,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 51.5,
+    "attack": 76,
+    "defense": 86,
+    "specialAttack": 116,
+    "specialDefense": 56,
     "speed": 95
   },
   {
@@ -35454,7 +37799,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 25.5,
+    "attack": 110,
+    "defense": 130,
+    "specialAttack": 60,
+    "specialDefense": 65,
     "speed": 95
   },
   {
@@ -35570,7 +37920,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 25.9,
+    "attack": 60,
+    "defense": 110,
+    "specialAttack": 130,
+    "specialDefense": 95,
     "speed": 65
   },
   {
@@ -35657,7 +38012,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 42.5,
+    "attack": 95,
+    "defense": 125,
+    "specialAttack": 45,
+    "specialDefense": 75,
     "speed": 95
   },
   {
@@ -35767,7 +38127,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.5,
     "weightKg": 291.0,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 60,
     "speed": 80
   },
   {
@@ -35823,7 +38188,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 34.0,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 135,
+    "specialDefense": 75,
     "speed": 90
   },
   {
@@ -35923,7 +38293,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 52.0,
+    "attack": 125,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 115,
     "speed": 80
   },
   {
@@ -36006,7 +38381,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 340.0,
+    "attack": 55,
+    "defense": 145,
+    "specialAttack": 75,
+    "specialDefense": 150,
     "speed": 40
   },
   {
@@ -36071,7 +38451,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 106.6,
+    "attack": 100,
+    "defense": 135,
+    "specialAttack": 65,
+    "specialDefense": 135,
     "speed": 45
   },
   {
@@ -36164,7 +38549,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 26.6,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 70,
     "speed": 110
   },
   {
@@ -36224,7 +38614,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.3,
+    "attack": 50,
+    "defense": 77,
+    "specialAttack": 95,
+    "specialDefense": 77,
     "speed": 91
   },
   {
@@ -36275,7 +38670,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.3,
+    "attack": 75,
+    "defense": 130,
+    "specialAttack": 75,
+    "specialDefense": 130,
     "speed": 95
   },
   {
@@ -36326,7 +38726,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.3,
+    "attack": 105,
+    "defense": 105,
+    "specialAttack": 105,
+    "specialDefense": 105,
     "speed": 80
   },
   {
@@ -36377,7 +38782,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.3,
+    "attack": 125,
+    "defense": 70,
+    "specialAttack": 125,
+    "specialDefense": 70,
     "speed": 115
   },
   {
@@ -36437,7 +38847,12 @@
         "hidden": true
       }
     ],
+    "heightM": 5.4,
     "weightKg": 683.0,
+    "attack": 120,
+    "defense": 120,
+    "specialAttack": 150,
+    "specialDefense": 100,
     "speed": 90
   },
   {
@@ -36497,7 +38912,12 @@
         "hidden": true
       }
     ],
+    "heightM": 4.2,
     "weightKg": 336.0,
+    "attack": 120,
+    "defense": 100,
+    "specialAttack": 150,
+    "specialDefense": 120,
     "speed": 100
   },
   {
@@ -36569,7 +38989,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 430.0,
+    "attack": 90,
+    "defense": 106,
+    "specialAttack": 130,
+    "specialDefense": 106,
     "speed": 77
   },
   {
@@ -36603,7 +39028,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.7,
     "weightKg": 420.0,
+    "attack": 160,
+    "defense": 110,
+    "specialAttack": 80,
+    "specialDefense": 110,
     "speed": 100
   },
   {
@@ -36671,7 +39101,12 @@
         "hidden": true
       }
     ],
+    "heightM": 4.5,
     "weightKg": 750.0,
+    "attack": 100,
+    "defense": 120,
+    "specialAttack": 100,
+    "specialDefense": 120,
     "speed": 90
   },
   {
@@ -36722,7 +39157,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 85.6,
+    "attack": 70,
+    "defense": 110,
+    "specialAttack": 75,
+    "specialDefense": 120,
     "speed": 85
   },
   {
@@ -36780,7 +39220,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 3.1,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 80,
+    "specialDefense": 80,
     "speed": 80
   },
   {
@@ -36838,7 +39283,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.4,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -36889,7 +39339,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 50.5,
+    "attack": 90,
+    "defense": 90,
+    "specialAttack": 135,
+    "specialDefense": 90,
     "speed": 125
   },
   {
@@ -36952,7 +39407,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 2.1,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -36986,7 +39446,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.2,
     "weightKg": 320.0,
+    "attack": 120,
+    "defense": 120,
+    "specialAttack": 120,
+    "specialDefense": 120,
     "speed": 120
   },
   {
@@ -37062,7 +39527,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.0,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 100
   },
   {
@@ -37143,7 +39613,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.1,
+    "attack": 45,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 63
   },
   {
@@ -37224,7 +39699,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 16.0,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
     "speed": 83
   },
   {
@@ -37305,7 +39785,12 @@
         "hidden": true
       }
     ],
+    "heightM": 3.3,
     "weightKg": 63.0,
+    "attack": 75,
+    "defense": 95,
+    "specialAttack": 75,
+    "specialDefense": 95,
     "speed": 113
   },
   {
@@ -37382,7 +39867,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.9,
+    "attack": 63,
+    "defense": 45,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 45
   },
   {
@@ -37476,7 +39966,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 55.5,
+    "attack": 93,
+    "defense": 55,
+    "specialAttack": 70,
+    "specialDefense": 55,
     "speed": 55
   },
   {
@@ -37570,7 +40065,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 150.0,
+    "attack": 123,
+    "defense": 65,
+    "specialAttack": 100,
+    "specialDefense": 65,
     "speed": 65
   },
   {
@@ -37639,7 +40139,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.9,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 63,
+    "specialDefense": 45,
     "speed": 45
   },
   {
@@ -37708,7 +40213,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 24.5,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 83,
+    "specialDefense": 60,
     "speed": 60
   },
   {
@@ -37777,7 +40287,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 94.6,
+    "attack": 100,
+    "defense": 85,
+    "specialAttack": 108,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -37826,7 +40341,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 11.6,
+    "attack": 55,
+    "defense": 39,
+    "specialAttack": 35,
+    "specialDefense": 39,
     "speed": 42
   },
   {
@@ -37875,7 +40395,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 27.0,
+    "attack": 85,
+    "defense": 69,
+    "specialAttack": 60,
+    "specialDefense": 69,
     "speed": 77
   },
   {
@@ -37931,7 +40456,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.1,
+    "attack": 60,
+    "defense": 45,
+    "specialAttack": 25,
+    "specialDefense": 45,
     "speed": 55
   },
   {
@@ -37987,7 +40517,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 14.7,
+    "attack": 80,
+    "defense": 65,
+    "specialAttack": 35,
+    "specialDefense": 65,
     "speed": 60
   },
   {
@@ -38043,7 +40578,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 61.0,
+    "attack": 110,
+    "defense": 90,
+    "specialAttack": 45,
+    "specialDefense": 90,
     "speed": 80
   },
   {
@@ -38109,7 +40649,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 10.1,
+    "attack": 50,
+    "defense": 37,
+    "specialAttack": 50,
+    "specialDefense": 37,
     "speed": 66
   },
   {
@@ -38175,7 +40720,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 37.5,
+    "attack": 88,
+    "defense": 50,
+    "specialAttack": 88,
+    "specialDefense": 50,
     "speed": 106
   },
   {
@@ -38249,7 +40799,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.5,
+    "attack": 53,
+    "defense": 48,
+    "specialAttack": 53,
+    "specialDefense": 48,
     "speed": 64
   },
   {
@@ -38323,7 +40878,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 30.5,
+    "attack": 98,
+    "defense": 63,
+    "specialAttack": 98,
+    "specialDefense": 63,
     "speed": 101
   },
   {
@@ -38393,7 +40953,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.0,
+    "attack": 53,
+    "defense": 48,
+    "specialAttack": 53,
+    "specialDefense": 48,
     "speed": 64
   },
   {
@@ -38463,7 +41028,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 28.0,
+    "attack": 98,
+    "defense": 63,
+    "specialAttack": 98,
+    "specialDefense": 63,
     "speed": 101
   },
   {
@@ -38525,7 +41095,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 13.5,
+    "attack": 53,
+    "defense": 48,
+    "specialAttack": 53,
+    "specialDefense": 48,
     "speed": 64
   },
   {
@@ -38587,7 +41162,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 29.0,
+    "attack": 98,
+    "defense": 63,
+    "specialAttack": 98,
+    "specialDefense": 63,
     "speed": 101
   },
   {
@@ -38653,7 +41233,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 23.3,
+    "attack": 25,
+    "defense": 45,
+    "specialAttack": 67,
+    "specialDefense": 55,
     "speed": 24
   },
   {
@@ -38719,7 +41304,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 60.5,
+    "attack": 55,
+    "defense": 85,
+    "specialAttack": 107,
+    "specialDefense": 95,
     "speed": 29
   },
   {
@@ -38797,7 +41387,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.1,
+    "attack": 55,
+    "defense": 50,
+    "specialAttack": 36,
+    "specialDefense": 30,
     "speed": 43
   },
   {
@@ -38875,7 +41470,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 15.0,
+    "attack": 77,
+    "defense": 62,
+    "specialAttack": 50,
+    "specialDefense": 42,
     "speed": 65
   },
   {
@@ -38953,7 +41553,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 29.0,
+    "attack": 115,
+    "defense": 80,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 93
   },
   {
@@ -39011,7 +41616,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 29.8,
+    "attack": 60,
+    "defense": 32,
+    "specialAttack": 50,
+    "specialDefense": 32,
     "speed": 76
   },
   {
@@ -39069,7 +41679,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 79.5,
+    "attack": 100,
+    "defense": 63,
+    "specialAttack": 80,
+    "specialDefense": 63,
     "speed": 116
   },
   {
@@ -39158,7 +41773,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 18.0,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 15
   },
   {
@@ -39247,7 +41867,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 102.0,
+    "attack": 105,
+    "defense": 105,
+    "specialAttack": 50,
+    "specialDefense": 40,
     "speed": 20
   },
   {
@@ -39336,7 +41961,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 260.0,
+    "attack": 135,
+    "defense": 130,
+    "specialAttack": 60,
+    "specialDefense": 80,
     "speed": 25
   },
   {
@@ -39419,7 +42049,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 2.1,
+    "attack": 45,
+    "defense": 43,
+    "specialAttack": 55,
+    "specialDefense": 43,
     "speed": 72
   },
   {
@@ -39502,7 +42137,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 10.5,
+    "attack": 57,
+    "defense": 55,
+    "specialAttack": 77,
+    "specialDefense": 55,
     "speed": 114
   },
   {
@@ -39580,7 +42220,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 8.5,
+    "attack": 85,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 45,
     "speed": 68
   },
   {
@@ -39671,7 +42316,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 40.4,
+    "attack": 135,
+    "defense": 60,
+    "specialAttack": 50,
+    "specialDefense": 65,
     "speed": 88
   },
   {
@@ -39713,7 +42363,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 31.0,
+    "attack": 60,
+    "defense": 86,
+    "specialAttack": 60,
+    "specialDefense": 86,
     "speed": 50
   },
   {
@@ -39798,7 +42453,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 12.5,
+    "attack": 80,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 35,
     "speed": 35
   },
   {
@@ -39883,7 +42543,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 40.0,
+    "attack": 105,
+    "defense": 85,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 40
   },
   {
@@ -39968,7 +42633,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 87.0,
+    "attack": 140,
+    "defense": 95,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -40041,7 +42711,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 4.5,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 40,
     "speed": 64
   },
   {
@@ -40123,7 +42798,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 17.0,
+    "attack": 65,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 69
   },
   {
@@ -40205,7 +42885,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 62.0,
+    "attack": 95,
+    "defense": 75,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 74
   },
   {
@@ -40276,7 +42961,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 55.5,
+    "attack": 100,
+    "defense": 85,
+    "specialAttack": 30,
+    "specialDefense": 85,
     "speed": 45
   },
   {
@@ -40347,7 +43037,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 51.0,
+    "attack": 125,
+    "defense": 75,
+    "specialAttack": 30,
+    "specialDefense": 75,
     "speed": 85
   },
   {
@@ -40449,7 +43144,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.5,
+    "attack": 53,
+    "defense": 70,
+    "specialAttack": 40,
+    "specialDefense": 60,
     "speed": 42
   },
   {
@@ -40551,7 +43251,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 7.3,
+    "attack": 63,
+    "defense": 90,
+    "specialAttack": 50,
+    "specialDefense": 80,
     "speed": 42
   },
   {
@@ -40653,7 +43358,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 20.5,
+    "attack": 103,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
     "speed": 92
   },
   {
@@ -40739,7 +43449,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.3,
+    "attack": 45,
+    "defense": 59,
+    "specialAttack": 30,
+    "specialDefense": 39,
     "speed": 57
   },
   {
@@ -40825,7 +43540,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 58.5,
+    "attack": 55,
+    "defense": 99,
+    "specialAttack": 40,
+    "specialDefense": 79,
     "speed": 47
   },
   {
@@ -40911,7 +43631,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.5,
     "weightKg": 200.5,
+    "attack": 100,
+    "defense": 89,
+    "specialAttack": 55,
+    "specialDefense": 69,
     "speed": 112
   },
   {
@@ -41002,7 +43727,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.6,
+    "attack": 27,
+    "defense": 60,
+    "specialAttack": 37,
+    "specialDefense": 50,
     "speed": 66
   },
   {
@@ -41093,7 +43823,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 6.6,
+    "attack": 67,
+    "defense": 85,
+    "specialAttack": 77,
+    "specialDefense": 75,
     "speed": 116
   },
   {
@@ -41171,7 +43906,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 6.6,
+    "attack": 35,
+    "defense": 50,
+    "specialAttack": 70,
+    "specialDefense": 50,
     "speed": 30
   },
   {
@@ -41249,7 +43989,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 16.3,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 110,
+    "specialDefense": 75,
     "speed": 90
   },
   {
@@ -41315,7 +44060,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 18.0,
+    "attack": 92,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 55,
     "speed": 98
   },
   {
@@ -41421,7 +44171,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 15.2,
+    "attack": 72,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 65
   },
   {
@@ -41527,7 +44282,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 33.4,
+    "attack": 82,
+    "defense": 45,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 74
   },
   {
@@ -41633,7 +44393,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 96.3,
+    "attack": 117,
+    "defense": 80,
+    "specialAttack": 65,
+    "specialDefense": 70,
     "speed": 92
   },
   {
@@ -41703,7 +44468,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 37.5,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 15,
+    "specialDefense": 45,
     "speed": 50
   },
   {
@@ -41773,7 +44543,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 92.9,
+    "attack": 140,
+    "defense": 55,
+    "specialAttack": 30,
+    "specialDefense": 55,
     "speed": 95
   },
   {
@@ -41844,7 +44619,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 28.0,
+    "attack": 86,
+    "defense": 67,
+    "specialAttack": 106,
+    "specialDefense": 67,
     "speed": 60
   },
   {
@@ -41931,7 +44711,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 14.5,
+    "attack": 65,
+    "defense": 85,
+    "specialAttack": 35,
+    "specialDefense": 35,
     "speed": 55
   },
   {
@@ -42018,7 +44803,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 200.0,
+    "attack": 105,
+    "defense": 125,
+    "specialAttack": 65,
+    "specialDefense": 75,
     "speed": 45
   },
   {
@@ -42105,7 +44895,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 11.8,
+    "attack": 75,
+    "defense": 70,
+    "specialAttack": 35,
+    "specialDefense": 70,
     "speed": 48
   },
   {
@@ -42192,7 +44987,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 30.0,
+    "attack": 90,
+    "defense": 115,
+    "specialAttack": 45,
+    "specialDefense": 115,
     "speed": 58
   },
   {
@@ -42268,7 +45068,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 14.0,
+    "attack": 58,
+    "defense": 80,
+    "specialAttack": 103,
+    "specialDefense": 80,
     "speed": 97
   },
   {
@@ -42328,7 +45133,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 1.5,
+    "attack": 30,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 30
   },
   {
@@ -42388,7 +45198,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.7,
     "weightKg": 76.5,
+    "attack": 50,
+    "defense": 145,
+    "specialAttack": 95,
+    "specialDefense": 105,
     "speed": 30
   },
   {
@@ -42475,7 +45290,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 16.5,
+    "attack": 78,
+    "defense": 103,
+    "specialAttack": 53,
+    "specialDefense": 45,
     "speed": 22
   },
   {
@@ -42562,7 +45382,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 81.0,
+    "attack": 108,
+    "defense": 133,
+    "specialAttack": 83,
+    "specialDefense": 65,
     "speed": 32
   },
   {
@@ -42645,7 +45470,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.5,
+    "attack": 112,
+    "defense": 45,
+    "specialAttack": 74,
+    "specialDefense": 45,
     "speed": 70
   },
   {
@@ -42728,7 +45558,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 32.0,
+    "attack": 140,
+    "defense": 65,
+    "specialAttack": 112,
+    "specialDefense": 65,
     "speed": 110
   },
   {
@@ -42790,7 +45625,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 31.0,
+    "attack": 50,
+    "defense": 62,
+    "specialAttack": 40,
+    "specialDefense": 62,
     "speed": 65
   },
   {
@@ -42852,7 +45692,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 107.3,
+    "attack": 95,
+    "defense": 82,
+    "specialAttack": 60,
+    "specialDefense": 82,
     "speed": 75
   },
   {
@@ -42910,7 +45755,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.7,
     "weightKg": 12.5,
+    "attack": 65,
+    "defense": 40,
+    "specialAttack": 80,
+    "specialDefense": 40,
     "speed": 65
   },
   {
@@ -42968,7 +45818,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.6,
     "weightKg": 81.1,
+    "attack": 105,
+    "defense": 60,
+    "specialAttack": 120,
+    "specialDefense": 60,
     "speed": 105
   },
   {
@@ -43017,7 +45872,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.8,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 75
   },
   {
@@ -43066,7 +45926,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 7.5,
+    "attack": 95,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 60,
     "speed": 115
   },
   {
@@ -43139,7 +46004,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.8,
+    "attack": 30,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 45
   },
   {
@@ -43212,7 +46082,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 18.0,
+    "attack": 45,
+    "defense": 70,
+    "specialAttack": 75,
+    "specialDefense": 85,
     "speed": 55
   },
   {
@@ -43285,7 +46160,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 44.0,
+    "attack": 55,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 110,
     "speed": 65
   },
   {
@@ -43358,7 +46238,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.0,
+    "attack": 30,
+    "defense": 40,
+    "specialAttack": 105,
+    "specialDefense": 50,
     "speed": 20
   },
   {
@@ -43431,7 +46316,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.0,
+    "attack": 40,
+    "defense": 50,
+    "specialAttack": 125,
+    "specialDefense": 60,
     "speed": 30
   },
   {
@@ -43504,7 +46394,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 20.1,
+    "attack": 65,
+    "defense": 75,
+    "specialAttack": 125,
+    "specialDefense": 85,
     "speed": 30
   },
   {
@@ -43583,7 +46478,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.5,
+    "attack": 44,
+    "defense": 50,
+    "specialAttack": 44,
+    "specialDefense": 50,
     "speed": 55
   },
   {
@@ -43662,7 +46562,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 24.2,
+    "attack": 87,
+    "defense": 63,
+    "specialAttack": 87,
+    "specialDefense": 63,
     "speed": 98
   },
   {
@@ -43747,7 +46652,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.7,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 65,
+    "specialDefense": 60,
     "speed": 44
   },
   {
@@ -43832,7 +46742,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 41.0,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 75,
     "speed": 59
   },
   {
@@ -43917,7 +46832,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 57.5,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 110,
+    "specialDefense": 95,
     "speed": 79
   },
   {
@@ -44000,7 +46920,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 19.5,
+    "attack": 60,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 75
   },
   {
@@ -44083,7 +47008,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 92.5,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 95
   },
   {
@@ -44147,7 +47077,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.0,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 60,
     "speed": 103
   },
   {
@@ -44217,7 +47152,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 5.9,
+    "attack": 75,
+    "defense": 45,
+    "specialAttack": 40,
+    "specialDefense": 45,
     "speed": 60
   },
   {
@@ -44292,7 +47232,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 33.0,
+    "attack": 135,
+    "defense": 105,
+    "specialAttack": 60,
+    "specialDefense": 105,
     "speed": 20
   },
   {
@@ -44371,7 +47316,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 1.0,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 55,
     "speed": 15
   },
   {
@@ -44450,7 +47400,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.5,
+    "attack": 85,
+    "defense": 70,
+    "specialAttack": 85,
+    "specialDefense": 80,
     "speed": 30
   },
   {
@@ -44533,7 +47488,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 33.0,
+    "attack": 40,
+    "defense": 50,
+    "specialAttack": 65,
+    "specialDefense": 85,
     "speed": 40
   },
   {
@@ -44616,7 +47576,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.2,
     "weightKg": 135.0,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 85,
+    "specialDefense": 105,
     "speed": 60
   },
   {
@@ -44675,7 +47640,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 31.6,
+    "attack": 75,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 45,
     "speed": 65
   },
   {
@@ -44750,7 +47720,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.1,
     "weightKg": 0.6,
+    "attack": 47,
+    "defense": 50,
+    "specialAttack": 57,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -44825,7 +47800,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 14.3,
+    "attack": 77,
+    "defense": 60,
+    "specialAttack": 97,
+    "specialDefense": 60,
     "speed": 108
   },
   {
@@ -44892,7 +47872,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 18.8,
+    "attack": 50,
+    "defense": 91,
+    "specialAttack": 24,
+    "specialDefense": 86,
     "speed": 10
   },
   {
@@ -44963,7 +47948,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 110.0,
+    "attack": 94,
+    "defense": 131,
+    "specialAttack": 54,
+    "specialDefense": 116,
     "speed": 20
   },
   {
@@ -45040,7 +48030,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 21.0,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 60,
     "speed": 30
   },
   {
@@ -45117,7 +48112,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 51.0,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 70,
+    "specialDefense": 85,
     "speed": 50
   },
   {
@@ -45194,7 +48194,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 81.0,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 70,
+    "specialDefense": 85,
     "speed": 90
   },
   {
@@ -45251,7 +48256,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.3,
+    "attack": 55,
+    "defense": 40,
+    "specialAttack": 45,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -45308,7 +48318,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.2,
     "weightKg": 22.0,
+    "attack": 85,
+    "defense": 70,
+    "specialAttack": 75,
+    "specialDefense": 70,
     "speed": 40
   },
   {
@@ -45365,7 +48380,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.1,
     "weightKg": 80.5,
+    "attack": 115,
+    "defense": 80,
+    "specialAttack": 105,
+    "specialDefense": 80,
     "speed": 50
   },
   {
@@ -45431,7 +48451,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.0,
+    "attack": 55,
+    "defense": 55,
+    "specialAttack": 85,
+    "specialDefense": 55,
     "speed": 30
   },
   {
@@ -45497,7 +48522,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 34.5,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 125,
+    "specialDefense": 95,
     "speed": 40
   },
   {
@@ -45595,7 +48625,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.1,
+    "attack": 30,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 55,
     "speed": 20
   },
   {
@@ -45693,7 +48728,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 13.0,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 60,
     "speed": 55
   },
   {
@@ -45791,7 +48831,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 34.3,
+    "attack": 55,
+    "defense": 90,
+    "specialAttack": 145,
+    "specialDefense": 90,
     "speed": 80
   },
   {
@@ -45860,7 +48905,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 18.0,
+    "attack": 87,
+    "defense": 60,
+    "specialAttack": 30,
+    "specialDefense": 40,
     "speed": 57
   },
   {
@@ -45929,7 +48979,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 36.0,
+    "attack": 117,
+    "defense": 70,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 67
   },
   {
@@ -45998,7 +49053,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 105.5,
+    "attack": 147,
+    "defense": 90,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 97
   },
   {
@@ -46076,7 +49136,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 8.5,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 60,
+    "specialDefense": 40,
     "speed": 40
   },
   {
@@ -46154,7 +49219,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.6,
     "weightKg": 260.0,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
     "speed": 50
   },
   {
@@ -46217,7 +49287,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.1,
     "weightKg": 148.0,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 95,
+    "specialDefense": 135,
     "speed": 105
   },
   {
@@ -46287,7 +49362,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.7,
+    "attack": 40,
+    "defense": 85,
+    "specialAttack": 40,
+    "specialDefense": 65,
     "speed": 25
   },
   {
@@ -46357,7 +49437,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 25.3,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 100,
+    "specialDefense": 60,
     "speed": 145
   },
   {
@@ -46441,7 +49526,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 11.0,
+    "attack": 66,
+    "defense": 84,
+    "specialAttack": 81,
+    "specialDefense": 99,
     "speed": 32
   },
   {
@@ -46519,7 +49609,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 20.0,
+    "attack": 85,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 50,
     "speed": 65
   },
   {
@@ -46597,7 +49692,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 35.5,
+    "attack": 125,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 60,
     "speed": 105
   },
   {
@@ -46652,7 +49752,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 139.0,
+    "attack": 120,
+    "defense": 90,
+    "specialAttack": 60,
+    "specialDefense": 90,
     "speed": 48
   },
   {
@@ -46747,7 +49852,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 92.0,
+    "attack": 74,
+    "defense": 50,
+    "specialAttack": 35,
+    "specialDefense": 50,
     "speed": 35
   },
   {
@@ -46842,7 +49952,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.8,
     "weightKg": 330.0,
+    "attack": 124,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 80,
     "speed": 55
   },
   {
@@ -46928,7 +50043,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 10.2,
+    "attack": 85,
+    "defense": 70,
+    "specialAttack": 40,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -47014,7 +50134,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 70.0,
+    "attack": 125,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 70,
     "speed": 70
   },
   {
@@ -47056,7 +50181,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 94.6,
+    "attack": 110,
+    "defense": 95,
+    "specialAttack": 40,
+    "specialDefense": 95,
     "speed": 55
   },
   {
@@ -47127,7 +50257,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 10.5,
+    "attack": 83,
+    "defense": 50,
+    "specialAttack": 37,
+    "specialDefense": 50,
     "speed": 60
   },
   {
@@ -47198,7 +50333,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 41.0,
+    "attack": 123,
+    "defense": 75,
+    "specialAttack": 57,
+    "specialDefense": 75,
     "speed": 80
   },
   {
@@ -47281,7 +50421,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.0,
+    "attack": 55,
+    "defense": 75,
+    "specialAttack": 45,
+    "specialDefense": 65,
     "speed": 60
   },
   {
@@ -47364,7 +50509,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 39.5,
+    "attack": 65,
+    "defense": 105,
+    "specialAttack": 55,
+    "specialDefense": 95,
     "speed": 80
   },
   {
@@ -47431,7 +50581,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.4,
     "weightKg": 58.0,
+    "attack": 97,
+    "defense": 66,
+    "specialAttack": 105,
+    "specialDefense": 66,
     "speed": 65
   },
   {
@@ -47499,7 +50654,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 33.0,
+    "attack": 109,
+    "defense": 112,
+    "specialAttack": 48,
+    "specialDefense": 48,
     "speed": 109
   },
   {
@@ -47577,7 +50737,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.8,
     "weightKg": 17.3,
+    "attack": 65,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 50,
     "speed": 38
   },
   {
@@ -47655,7 +50820,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 50.0,
+    "attack": 85,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 70,
     "speed": 58
   },
   {
@@ -47733,7 +50903,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.8,
     "weightKg": 160.0,
+    "attack": 105,
+    "defense": 90,
+    "specialAttack": 125,
+    "specialDefense": 90,
     "speed": 98
   },
   {
@@ -47812,7 +50987,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 28.8,
+    "attack": 85,
+    "defense": 55,
+    "specialAttack": 50,
+    "specialDefense": 55,
     "speed": 60
   },
   {
@@ -47891,7 +51071,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 46.0,
+    "attack": 60,
+    "defense": 65,
+    "specialAttack": 135,
+    "specialDefense": 105,
     "speed": 100
   },
   {
@@ -47959,7 +51144,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.1,
     "weightKg": 250.0,
+    "attack": 90,
+    "defense": 129,
+    "specialAttack": 90,
+    "specialDefense": 72,
     "speed": 108
   },
   {
@@ -48051,7 +51241,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.9,
     "weightKg": 260.0,
+    "attack": 129,
+    "defense": 90,
+    "specialAttack": 72,
+    "specialDefense": 90,
     "speed": 108
   },
   {
@@ -48135,7 +51330,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 200.0,
+    "attack": 90,
+    "defense": 72,
+    "specialAttack": 90,
+    "specialDefense": 129,
     "speed": 108
   },
   {
@@ -48194,7 +51394,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 63.0,
+    "attack": 115,
+    "defense": 70,
+    "specialAttack": 125,
+    "specialDefense": 80,
     "speed": 111
   },
   {
@@ -48258,7 +51463,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 61.0,
+    "attack": 115,
+    "defense": 70,
+    "specialAttack": 125,
+    "specialDefense": 80,
     "speed": 111
   },
   {
@@ -48322,7 +51532,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.2,
     "weightKg": 330.0,
+    "attack": 120,
+    "defense": 100,
+    "specialAttack": 150,
+    "specialDefense": 120,
     "speed": 90
   },
   {
@@ -48382,7 +51597,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.9,
     "weightKg": 345.0,
+    "attack": 150,
+    "defense": 120,
+    "specialAttack": 120,
+    "specialDefense": 100,
     "speed": 90
   },
   {
@@ -48458,7 +51678,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 68.0,
+    "attack": 125,
+    "defense": 90,
+    "specialAttack": 115,
+    "specialDefense": 80,
     "speed": 101
   },
   {
@@ -48526,7 +51751,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.0,
     "weightKg": 325.0,
+    "attack": 130,
+    "defense": 90,
+    "specialAttack": 130,
+    "specialDefense": 90,
     "speed": 95
   },
   {
@@ -48606,7 +51836,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.4,
     "weightKg": 48.5,
+    "attack": 72,
+    "defense": 90,
+    "specialAttack": 129,
+    "specialDefense": 90,
     "speed": 108
   },
   {
@@ -48654,7 +51889,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 6.5,
+    "attack": 77,
+    "defense": 77,
+    "specialAttack": 128,
+    "specialDefense": 128,
     "speed": 90
   },
   {
@@ -48714,7 +51954,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 82.5,
+    "attack": 120,
+    "defense": 95,
+    "specialAttack": 120,
+    "specialDefense": 95,
     "speed": 99
   },
   {
@@ -48795,7 +52040,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 9.0,
+    "attack": 61,
+    "defense": 65,
+    "specialAttack": 48,
+    "specialDefense": 45,
     "speed": 38
   },
   {
@@ -48876,7 +52126,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 29.0,
+    "attack": 78,
+    "defense": 95,
+    "specialAttack": 56,
+    "specialDefense": 58,
     "speed": 57
   },
   {
@@ -48978,7 +52233,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 90.0,
+    "attack": 107,
+    "defense": 122,
+    "specialAttack": 74,
+    "specialDefense": 75,
     "speed": 64
   },
   {
@@ -49055,7 +52315,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 9.4,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 62,
+    "specialDefense": 60,
     "speed": 60
   },
   {
@@ -49132,7 +52397,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 14.5,
+    "attack": 59,
+    "defense": 58,
+    "specialAttack": 90,
+    "specialDefense": 70,
     "speed": 73
   },
   {
@@ -49226,7 +52496,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 39.0,
+    "attack": 69,
+    "defense": 72,
+    "specialAttack": 114,
+    "specialDefense": 100,
     "speed": 104
   },
   {
@@ -49295,7 +52570,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 7.0,
+    "attack": 56,
+    "defense": 40,
+    "specialAttack": 62,
+    "specialDefense": 44,
     "speed": 71
   },
   {
@@ -49364,7 +52644,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 10.9,
+    "attack": 63,
+    "defense": 52,
+    "specialAttack": 83,
+    "specialDefense": 56,
     "speed": 97
   },
   {
@@ -49454,7 +52739,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 40.0,
+    "attack": 95,
+    "defense": 67,
+    "specialAttack": 103,
+    "specialDefense": 71,
     "speed": 122
   },
   {
@@ -49503,7 +52793,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.0,
+    "attack": 36,
+    "defense": 38,
+    "specialAttack": 32,
+    "specialDefense": 36,
     "speed": 57
   },
   {
@@ -49586,7 +52881,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 42.4,
+    "attack": 56,
+    "defense": 77,
+    "specialAttack": 50,
+    "specialDefense": 77,
     "speed": 78
   },
   {
@@ -49660,7 +52960,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.7,
+    "attack": 50,
+    "defense": 43,
+    "specialAttack": 40,
+    "specialDefense": 38,
     "speed": 62
   },
   {
@@ -49742,7 +53047,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 16.0,
+    "attack": 73,
+    "defense": 55,
+    "specialAttack": 56,
+    "specialDefense": 52,
     "speed": 84
   },
   {
@@ -49824,7 +53134,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 24.5,
+    "attack": 81,
+    "defense": 71,
+    "specialAttack": 74,
+    "specialDefense": 69,
     "speed": 126
   },
   {
@@ -49901,7 +53216,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.5,
+    "attack": 35,
+    "defense": 40,
+    "specialAttack": 27,
+    "specialDefense": 25,
     "speed": 35
   },
   {
@@ -49974,7 +53294,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 8.4,
+    "attack": 22,
+    "defense": 60,
+    "specialAttack": 27,
+    "specialDefense": 30,
     "speed": 29
   },
   {
@@ -50068,7 +53393,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 17.0,
+    "attack": 52,
+    "defense": 50,
+    "specialAttack": 90,
+    "specialDefense": 50,
     "speed": 89
   },
   {
@@ -50147,7 +53477,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 13.5,
+    "attack": 50,
+    "defense": 58,
+    "specialAttack": 73,
+    "specialDefense": 54,
     "speed": 72
   },
   {
@@ -50226,7 +53561,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 81.5,
+    "attack": 68,
+    "defense": 72,
+    "specialAttack": 109,
+    "specialDefense": 66,
     "speed": 106
   },
   {
@@ -50295,7 +53635,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.1,
     "weightKg": 0.1,
+    "attack": 38,
+    "defense": 39,
+    "specialAttack": 61,
+    "specialDefense": 79,
     "speed": 42
   },
   {
@@ -50364,7 +53709,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.9,
+    "attack": 45,
+    "defense": 47,
+    "specialAttack": 75,
+    "specialDefense": 98,
     "speed": 52
   },
   {
@@ -50433,7 +53783,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 10.0,
+    "attack": 65,
+    "defense": 68,
+    "specialAttack": 112,
+    "specialDefense": 154,
     "speed": 75
   },
   {
@@ -50507,7 +53862,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 31.0,
+    "attack": 65,
+    "defense": 48,
+    "specialAttack": 62,
+    "specialDefense": 57,
     "speed": 52
   },
   {
@@ -50581,7 +53941,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 91.0,
+    "attack": 100,
+    "defense": 62,
+    "specialAttack": 97,
+    "specialDefense": 81,
     "speed": 68
   },
   {
@@ -50659,7 +54024,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.0,
+    "attack": 82,
+    "defense": 62,
+    "specialAttack": 46,
+    "specialDefense": 48,
     "speed": 43
   },
   {
@@ -50746,7 +54116,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 136.0,
+    "attack": 124,
+    "defense": 78,
+    "specialAttack": 69,
+    "specialDefense": 71,
     "speed": 58
   },
   {
@@ -50780,7 +54155,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.2,
     "weightKg": 28.0,
+    "attack": 80,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 90,
     "speed": 102
   },
   {
@@ -50846,7 +54226,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.5,
+    "attack": 48,
+    "defense": 54,
+    "specialAttack": 63,
+    "specialDefense": 60,
     "speed": 68
   },
   {
@@ -50912,7 +54297,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 8.5,
+    "attack": 48,
+    "defense": 76,
+    "specialAttack": 83,
+    "specialDefense": 81,
     "speed": 104
   },
   {
@@ -50994,7 +54384,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.8,
     "weightKg": 2.0,
+    "attack": 80,
+    "defense": 100,
+    "specialAttack": 35,
+    "specialDefense": 37,
     "speed": 28
   },
   {
@@ -51076,7 +54471,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.8,
     "weightKg": 4.5,
+    "attack": 110,
+    "defense": 150,
+    "specialAttack": 45,
+    "specialDefense": 49,
     "speed": 35
   },
   {
@@ -51158,7 +54558,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.7,
     "weightKg": 53.0,
+    "attack": 50,
+    "defense": 140,
+    "specialAttack": 50,
+    "specialDefense": 140,
     "speed": 60
   },
   {
@@ -51220,7 +54625,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.5,
+    "attack": 52,
+    "defense": 60,
+    "specialAttack": 63,
+    "specialDefense": 65,
     "speed": 23
   },
   {
@@ -51282,7 +54692,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 15.5,
+    "attack": 72,
+    "defense": 72,
+    "specialAttack": 99,
+    "specialDefense": 89,
     "speed": 29
   },
   {
@@ -51344,7 +54759,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 3.5,
+    "attack": 48,
+    "defense": 66,
+    "specialAttack": 59,
+    "specialDefense": 57,
     "speed": 49
   },
   {
@@ -51406,7 +54826,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 5.0,
+    "attack": 80,
+    "defense": 86,
+    "specialAttack": 85,
+    "specialDefense": 75,
     "speed": 72
   },
   {
@@ -51477,7 +54902,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 3.5,
+    "attack": 54,
+    "defense": 53,
+    "specialAttack": 37,
+    "specialDefense": 46,
     "speed": 45
   },
   {
@@ -51548,7 +54978,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 47.0,
+    "attack": 92,
+    "defense": 88,
+    "specialAttack": 68,
+    "specialDefense": 75,
     "speed": 73
   },
   {
@@ -51635,7 +55070,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 31.0,
+    "attack": 52,
+    "defense": 67,
+    "specialAttack": 39,
+    "specialDefense": 56,
     "speed": 50
   },
   {
@@ -51722,7 +55162,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 96.0,
+    "attack": 105,
+    "defense": 115,
+    "specialAttack": 54,
+    "specialDefense": 86,
     "speed": 68
   },
   {
@@ -51801,7 +55246,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 7.3,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 60,
     "speed": 30
   },
   {
@@ -51876,7 +55326,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 81.5,
+    "attack": 75,
+    "defense": 90,
+    "specialAttack": 97,
+    "specialDefense": 123,
     "speed": 44
   },
   {
@@ -51934,7 +55389,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 8.3,
+    "attack": 53,
+    "defense": 62,
+    "specialAttack": 58,
+    "specialDefense": 63,
     "speed": 44
   },
   {
@@ -51992,7 +55452,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.3,
     "weightKg": 35.3,
+    "attack": 73,
+    "defense": 88,
+    "specialAttack": 120,
+    "specialDefense": 89,
     "speed": 59
   },
   {
@@ -52055,7 +55520,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 6.0,
+    "attack": 38,
+    "defense": 33,
+    "specialAttack": 61,
+    "specialDefense": 43,
     "speed": 70
   },
   {
@@ -52118,7 +55588,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 21.0,
+    "attack": 55,
+    "defense": 52,
+    "specialAttack": 109,
+    "specialDefense": 94,
     "speed": 109
   },
   {
@@ -52205,7 +55680,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 26.0,
+    "attack": 89,
+    "defense": 77,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 48
   },
   {
@@ -52292,7 +55772,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.5,
     "weightKg": 270.0,
+    "attack": 121,
+    "defense": 119,
+    "specialAttack": 69,
+    "specialDefense": 59,
     "speed": 71
   },
   {
@@ -52387,7 +55872,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 25.2,
+    "attack": 59,
+    "defense": 50,
+    "specialAttack": 67,
+    "specialDefense": 63,
     "speed": 46
   },
   {
@@ -52482,7 +55972,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.7,
     "weightKg": 225.0,
+    "attack": 77,
+    "defense": 72,
+    "specialAttack": 99,
+    "specialDefense": 92,
     "speed": 58
   },
   {
@@ -52586,7 +56081,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 23.5,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 110,
+    "specialDefense": 130,
     "speed": 60
   },
   {
@@ -52678,7 +56178,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 21.5,
+    "attack": 92,
+    "defense": 75,
+    "specialAttack": 74,
+    "specialDefense": 63,
     "speed": 118
   },
   {
@@ -52746,7 +56251,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 2.2,
+    "attack": 58,
+    "defense": 57,
+    "specialAttack": 81,
+    "specialDefense": 67,
     "speed": 101
   },
   {
@@ -52826,7 +56336,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 5.7,
+    "attack": 50,
+    "defense": 150,
+    "specialAttack": 50,
+    "specialDefense": 150,
     "speed": 50
   },
   {
@@ -52895,7 +56410,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 2.8,
+    "attack": 50,
+    "defense": 35,
+    "specialAttack": 55,
+    "specialDefense": 75,
     "speed": 40
   },
   {
@@ -52964,7 +56484,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 17.5,
+    "attack": 75,
+    "defense": 53,
+    "specialAttack": 83,
+    "specialDefense": 113,
     "speed": 60
   },
   {
@@ -53033,7 +56558,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 150.5,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 110,
+    "specialDefense": 150,
     "speed": 80
   },
   {
@@ -53101,7 +56631,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 3.0,
+    "attack": 80,
+    "defense": 91,
+    "specialAttack": 80,
+    "specialDefense": 87,
     "speed": 75
   },
   {
@@ -53188,7 +56723,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.0,
+    "attack": 70,
+    "defense": 48,
+    "specialAttack": 50,
+    "specialDefense": 60,
     "speed": 38
   },
   {
@@ -53275,7 +56815,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 71.0,
+    "attack": 110,
+    "defense": 76,
+    "specialAttack": 65,
+    "specialDefense": 82,
     "speed": 56
   },
   {
@@ -53362,7 +56907,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 5.0,
+    "attack": 66,
+    "defense": 70,
+    "specialAttack": 44,
+    "specialDefense": 55,
     "speed": 51
   },
   {
@@ -53449,7 +56999,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 12.5,
+    "attack": 90,
+    "defense": 122,
+    "specialAttack": 58,
+    "specialDefense": 75,
     "speed": 84
   },
   {
@@ -53527,7 +57082,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 99.5,
+    "attack": 69,
+    "defense": 85,
+    "specialAttack": 32,
+    "specialDefense": 35,
     "speed": 28
   },
   {
@@ -53605,7 +57165,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 505.0,
+    "attack": 117,
+    "defense": 184,
+    "specialAttack": 44,
+    "specialDefense": 46,
     "speed": 28
   },
   {
@@ -53684,7 +57249,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 8.0,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 45,
+    "specialDefense": 40,
     "speed": 55
   },
   {
@@ -53763,7 +57333,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 85.0,
+    "attack": 70,
+    "defense": 80,
+    "specialAttack": 97,
+    "specialDefense": 80,
     "speed": 123
   },
   {
@@ -53814,7 +57389,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.0,
     "weightKg": 215.0,
+    "attack": 131,
+    "defense": 95,
+    "specialAttack": 131,
+    "specialDefense": 98,
     "speed": 99
   },
   {
@@ -53882,7 +57462,12 @@
         "hidden": false
       }
     ],
+    "heightM": 5.8,
     "weightKg": 203.0,
+    "attack": 131,
+    "defense": 95,
+    "specialAttack": 131,
+    "specialDefense": 98,
     "speed": 99
   },
   {
@@ -53950,7 +57535,12 @@
         "hidden": false
       }
     ],
+    "heightM": 5.0,
     "weightKg": 305.0,
+    "attack": 100,
+    "defense": 121,
+    "specialAttack": 81,
+    "specialDefense": 95,
     "speed": 95
   },
   {
@@ -54026,7 +57616,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.7,
     "weightKg": 8.8,
+    "attack": 100,
+    "defense": 150,
+    "specialAttack": 100,
+    "specialDefense": 150,
     "speed": 50
   },
   {
@@ -54082,7 +57677,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.0,
+    "attack": 110,
+    "defense": 60,
+    "specialAttack": 150,
+    "specialDefense": 130,
     "speed": 70
   },
   {
@@ -54154,7 +57754,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.7,
     "weightKg": 195.0,
+    "attack": 110,
+    "defense": 120,
+    "specialAttack": 130,
+    "specialDefense": 90,
     "speed": 70
   },
   {
@@ -54248,7 +57853,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.5,
+    "attack": 55,
+    "defense": 55,
+    "specialAttack": 50,
+    "specialDefense": 50,
     "speed": 42
   },
   {
@@ -54342,7 +57952,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 16.0,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 70,
+    "specialDefense": 70,
     "speed": 52
   },
   {
@@ -54432,7 +58047,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 36.6,
+    "attack": 107,
+    "defense": 75,
+    "specialAttack": 100,
+    "specialDefense": 100,
     "speed": 70
   },
   {
@@ -54509,7 +58129,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.3,
+    "attack": 65,
+    "defense": 40,
+    "specialAttack": 60,
+    "specialDefense": 40,
     "speed": 70
   },
   {
@@ -54586,7 +58211,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 25.0,
+    "attack": 85,
+    "defense": 50,
+    "specialAttack": 80,
+    "specialDefense": 50,
     "speed": 90
   },
   {
@@ -54676,7 +58306,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 83.0,
+    "attack": 115,
+    "defense": 90,
+    "specialAttack": 80,
+    "specialDefense": 90,
     "speed": 60
   },
   {
@@ -54745,7 +58380,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 7.5,
+    "attack": 54,
+    "defense": 54,
+    "specialAttack": 66,
+    "specialDefense": 56,
     "speed": 40
   },
   {
@@ -54814,7 +58454,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 17.5,
+    "attack": 69,
+    "defense": 69,
+    "specialAttack": 91,
+    "specialDefense": 81,
     "speed": 50
   },
   {
@@ -54900,7 +58545,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 44.0,
+    "attack": 74,
+    "defense": 74,
+    "specialAttack": 126,
+    "specialDefense": 116,
     "speed": 60
   },
   {
@@ -54978,7 +58628,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.2,
+    "attack": 75,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 65
   },
   {
@@ -55056,7 +58711,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 14.8,
+    "attack": 85,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
     "speed": 75
   },
   {
@@ -55134,7 +58794,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.1,
     "weightKg": 26.0,
+    "attack": 120,
+    "defense": 75,
+    "specialAttack": 75,
+    "specialDefense": 75,
     "speed": 60
   },
   {
@@ -55183,7 +58848,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 6.0,
+    "attack": 70,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
     "speed": 45
   },
   {
@@ -55232,7 +58902,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 14.2,
+    "attack": 110,
+    "defense": 60,
+    "specialAttack": 55,
+    "specialDefense": 60,
     "speed": 45
   },
   {
@@ -55301,7 +58976,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 4.4,
+    "attack": 62,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 45,
     "speed": 46
   },
   {
@@ -55375,7 +59055,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 10.5,
+    "attack": 82,
+    "defense": 95,
+    "specialAttack": 55,
+    "specialDefense": 75,
     "speed": 36
   },
   {
@@ -55449,7 +59134,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.5,
     "weightKg": 45.0,
+    "attack": 70,
+    "defense": 90,
+    "specialAttack": 145,
+    "specialDefense": 75,
     "speed": 43
   },
   {
@@ -55527,7 +59217,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 7.0,
+    "attack": 82,
+    "defense": 57,
+    "specialAttack": 42,
+    "specialDefense": 47,
     "speed": 63
   },
   {
@@ -55634,7 +59329,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.7,
     "weightKg": 180.0,
+    "attack": 132,
+    "defense": 77,
+    "specialAttack": 62,
+    "specialDefense": 67,
     "speed": 43
   },
   {
@@ -55698,7 +59398,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.6,
     "weightKg": 3.4,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 98,
+    "specialDefense": 70,
     "speed": 93
   },
   {
@@ -55785,7 +59490,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.1,
     "weightKg": 0.2,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 55,
+    "specialDefense": 40,
     "speed": 84
   },
   {
@@ -55872,7 +59582,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.5,
+    "attack": 55,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 70,
     "speed": 124
   },
   {
@@ -55954,7 +59669,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 9.2,
+    "attack": 65,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 40,
     "speed": 60
   },
   {
@@ -56036,7 +59756,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.8,
     "weightKg": 25.0,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 55,
+    "specialDefense": 65,
     "speed": 112
   },
   {
@@ -56087,7 +59812,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.3,
+    "attack": 20,
+    "defense": 20,
+    "specialAttack": 25,
+    "specialDefense": 25,
     "speed": 40
   },
   {
@@ -56166,7 +59896,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.4,
     "weightKg": 8.0,
+    "attack": 53,
+    "defense": 62,
+    "specialAttack": 43,
+    "specialDefense": 52,
     "speed": 45
   },
   {
@@ -56245,7 +59980,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 14.5,
+    "attack": 63,
+    "defense": 152,
+    "specialAttack": 53,
+    "specialDefense": 142,
     "speed": 35
   },
   {
@@ -56323,7 +60063,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 110.0,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 55,
     "speed": 45
   },
   {
@@ -56401,7 +60146,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.5,
     "weightKg": 920.0,
+    "attack": 125,
+    "defense": 100,
+    "specialAttack": 55,
+    "specialDefense": 85,
     "speed": 35
   },
   {
@@ -56480,7 +60230,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 4.0,
+    "attack": 40,
+    "defense": 52,
+    "specialAttack": 40,
+    "specialDefense": 72,
     "speed": 27
   },
   {
@@ -56559,7 +60314,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 82.0,
+    "attack": 70,
+    "defense": 92,
+    "specialAttack": 50,
+    "specialDefense": 132,
     "speed": 42
   },
   {
@@ -56633,7 +60393,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.5,
+    "attack": 55,
+    "defense": 35,
+    "specialAttack": 50,
+    "specialDefense": 35,
     "speed": 35
   },
   {
@@ -56707,7 +60472,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 18.5,
+    "attack": 105,
+    "defense": 90,
+    "specialAttack": 80,
+    "specialDefense": 90,
     "speed": 45
   },
   {
@@ -56798,7 +60568,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.2,
     "weightKg": 1.5,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 75,
     "speed": 15
   },
   {
@@ -56889,7 +60664,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.0,
     "weightKg": 11.5,
+    "attack": 45,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 100,
     "speed": 30
   },
   {
@@ -56968,7 +60748,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 4.8,
+    "attack": 44,
+    "defense": 40,
+    "specialAttack": 71,
+    "specialDefense": 40,
     "speed": 77
   },
   {
@@ -57047,7 +60832,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 22.2,
+    "attack": 64,
+    "defense": 60,
+    "specialAttack": 111,
+    "specialDefense": 60,
     "speed": 117
   },
   {
@@ -57130,7 +60920,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 6.8,
+    "attack": 75,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 50,
     "speed": 50
   },
   {
@@ -57213,7 +61008,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.1,
     "weightKg": 135.0,
+    "attack": 125,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 60,
     "speed": 60
   },
   {
@@ -57298,7 +61098,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.2,
+    "attack": 30,
+    "defense": 38,
+    "specialAttack": 30,
+    "specialDefense": 38,
     "speed": 32
   },
   {
@@ -57383,7 +61188,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.7,
     "weightKg": 8.2,
+    "attack": 40,
+    "defense": 48,
+    "specialAttack": 40,
+    "specialDefense": 48,
     "speed": 62
   },
   {
@@ -57468,7 +61278,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 21.4,
+    "attack": 120,
+    "defense": 98,
+    "specialAttack": 50,
+    "specialDefense": 98,
     "speed": 72
   },
   {
@@ -57527,7 +61342,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.1,
     "weightKg": 0.3,
+    "attack": 52,
+    "defense": 90,
+    "specialAttack": 82,
+    "specialDefense": 110,
     "speed": 100
   },
   {
@@ -57583,7 +61403,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.5,
     "weightKg": 76.0,
+    "attack": 60,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 110,
     "speed": 60
   },
   {
@@ -57650,7 +61475,12 @@
         "hidden": true
       }
     ],
+    "heightM": 2.0,
     "weightKg": 82.8,
+    "attack": 120,
+    "defense": 90,
+    "specialAttack": 40,
+    "specialDefense": 60,
     "speed": 80
   },
   {
@@ -57725,7 +61555,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.5,
     "weightKg": 12.0,
+    "attack": 35,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 30,
     "speed": 80
   },
   {
@@ -57800,7 +61635,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 108.0,
+    "attack": 125,
+    "defense": 140,
+    "specialAttack": 60,
+    "specialDefense": 90,
     "speed": 40
   },
   {
@@ -57891,7 +61731,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.5,
     "weightKg": 70.0,
+    "attack": 55,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 45,
     "speed": 15
   },
   {
@@ -57982,7 +61827,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 250.0,
+    "attack": 75,
+    "defense": 110,
+    "specialAttack": 100,
+    "specialDefense": 75,
     "speed": 35
   },
   {
@@ -58037,7 +61887,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 1.2,
+    "attack": 60,
+    "defense": 130,
+    "specialAttack": 30,
+    "specialDefense": 130,
     "speed": 5
   },
   {
@@ -58078,7 +61933,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.9,
     "weightKg": 120.5,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 95,
     "speed": 59
   },
   {
@@ -58119,7 +61979,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.3,
     "weightKg": 100.5,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 95,
     "speed": 95
   },
   {
@@ -58195,7 +62060,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 40.0,
+    "attack": 60,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 100,
     "speed": 60
   },
   {
@@ -58229,7 +62099,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.4,
     "weightKg": 19.9,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 75,
+    "specialDefense": 95,
     "speed": 65
   },
   {
@@ -58293,7 +62168,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.0,
     "weightKg": 212.0,
+    "attack": 78,
+    "defense": 135,
+    "specialAttack": 91,
+    "specialDefense": 85,
     "speed": 36
   },
   {
@@ -58365,7 +62245,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.3,
     "weightKg": 3.3,
+    "attack": 98,
+    "defense": 63,
+    "specialAttack": 40,
+    "specialDefense": 73,
     "speed": 96
   },
   {
@@ -58425,7 +62310,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.7,
+    "attack": 90,
+    "defense": 80,
+    "specialAttack": 50,
+    "specialDefense": 105,
     "speed": 96
   },
   {
@@ -58505,7 +62395,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.9,
     "weightKg": 19.0,
+    "attack": 105,
+    "defense": 70,
+    "specialAttack": 70,
+    "specialDefense": 70,
     "speed": 92
   },
   {
@@ -58565,7 +62460,12 @@
         "hidden": true
       }
     ],
+    "heightM": 3.0,
     "weightKg": 185.0,
+    "attack": 60,
+    "defense": 85,
+    "specialAttack": 135,
+    "specialDefense": 91,
     "speed": 36
   },
   {
@@ -58637,7 +62537,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.9,
     "weightKg": 210.0,
+    "attack": 131,
+    "defense": 100,
+    "specialAttack": 86,
+    "specialDefense": 90,
     "speed": 40
   },
   {
@@ -58706,7 +62611,12 @@
         "hidden": true
       }
     ],
+    "heightM": 0.6,
     "weightKg": 29.7,
+    "attack": 55,
+    "defense": 65,
+    "specialAttack": 45,
+    "specialDefense": 45,
     "speed": 45
   },
   {
@@ -58804,7 +62714,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 47.0,
+    "attack": 75,
+    "defense": 90,
+    "specialAttack": 65,
+    "specialDefense": 70,
     "speed": 65
   },
   {
@@ -58902,7 +62817,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.6,
     "weightKg": 78.2,
+    "attack": 110,
+    "defense": 125,
+    "specialAttack": 100,
+    "specialDefense": 105,
     "speed": 85
   },
   {
@@ -58966,7 +62886,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.8,
     "weightKg": 20.5,
+    "attack": 115,
+    "defense": 85,
+    "specialAttack": 95,
+    "specialDefense": 75,
     "speed": 130
   },
   {
@@ -59030,7 +62955,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.2,
     "weightKg": 18.6,
+    "attack": 85,
+    "defense": 75,
+    "specialAttack": 130,
+    "specialDefense": 115,
     "speed": 95
   },
   {
@@ -59110,7 +63040,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.9,
     "weightKg": 45.5,
+    "attack": 130,
+    "defense": 115,
+    "specialAttack": 85,
+    "specialDefense": 95,
     "speed": 75
   },
   {
@@ -59182,7 +63117,12 @@
         "hidden": true
       }
     ],
+    "heightM": 1.3,
     "weightKg": 21.2,
+    "attack": 75,
+    "defense": 115,
+    "specialAttack": 95,
+    "specialDefense": 130,
     "speed": 85
   },
   {
@@ -59253,7 +63193,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.2,
     "weightKg": 0.1,
+    "attack": 29,
+    "defense": 31,
+    "specialAttack": 29,
+    "specialDefense": 31,
     "speed": 37
   },
   {
@@ -59324,7 +63269,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.1,
     "weightKg": 999.9,
+    "attack": 29,
+    "defense": 131,
+    "specialAttack": 29,
+    "specialDefense": 131,
     "speed": 37
   },
   {
@@ -59412,7 +63362,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.4,
     "weightKg": 230.0,
+    "attack": 137,
+    "defense": 107,
+    "specialAttack": 113,
+    "specialDefense": 89,
     "speed": 97
   },
   {
@@ -59488,7 +63443,12 @@
         "hidden": false
       }
     ],
+    "heightM": 4.0,
     "weightKg": 120.0,
+    "attack": 113,
+    "defense": 89,
+    "specialAttack": 137,
+    "specialDefense": 107,
     "speed": 97
   },
   {
@@ -59560,7 +63520,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.2,
     "weightKg": 55.5,
+    "attack": 53,
+    "defense": 47,
+    "specialAttack": 127,
+    "specialDefense": 131,
     "speed": 103
   },
   {
@@ -59636,7 +63601,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.4,
     "weightKg": 333.6,
+    "attack": 139,
+    "defense": 139,
+    "specialAttack": 53,
+    "specialDefense": 53,
     "speed": 79
   },
   {
@@ -59712,7 +63682,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.8,
     "weightKg": 25.0,
+    "attack": 137,
+    "defense": 37,
+    "specialAttack": 137,
+    "specialDefense": 37,
     "speed": 151
   },
   {
@@ -59755,7 +63730,12 @@
         "hidden": false
       }
     ],
+    "heightM": 3.8,
     "weightKg": 100.0,
+    "attack": 89,
+    "defense": 71,
+    "specialAttack": 173,
+    "specialDefense": 71,
     "speed": 83
   },
   {
@@ -59819,7 +63799,12 @@
         "hidden": false
       }
     ],
+    "heightM": 9.2,
     "weightKg": 999.9,
+    "attack": 101,
+    "defense": 103,
+    "specialAttack": 107,
+    "specialDefense": 101,
     "speed": 61
   },
   {
@@ -59879,7 +63864,12 @@
         "hidden": false
       }
     ],
+    "heightM": 0.3,
     "weightKg": 0.1,
+    "attack": 181,
+    "defense": 131,
+    "specialAttack": 59,
+    "specialDefense": 31,
     "speed": 109
   },
   {
@@ -59943,7 +63933,12 @@
         "hidden": false
       }
     ],
+    "heightM": 5.5,
     "weightKg": 888.0,
+    "attack": 101,
+    "defense": 53,
+    "specialAttack": 97,
+    "specialDefense": 53,
     "speed": 43
   },
   {
@@ -59994,7 +63989,12 @@
         "hidden": false
       }
     ],
+    "heightM": 2.4,
     "weightKg": 230.0,
+    "attack": 107,
+    "defense": 101,
+    "specialAttack": 127,
+    "specialDefense": 89,
     "speed": 79
   },
   {
@@ -60058,7 +64058,12 @@
         "hidden": false
       }
     ],
+    "heightM": 1.0,
     "weightKg": 80.5,
+    "attack": 95,
+    "defense": 115,
+    "specialAttack": 130,
+    "specialDefense": 115,
     "speed": 65
   }
 ]
