@@ -942,6 +942,9 @@
   // than separate vars so the pointermove/pointerup listeners (attached
   // once, below) always read the current values via closure.
   let dragState = { index: null, overIndex: null, moved: false, startX: 0, startY: 0 };
+  // Set on pointerup when a drag actually moved a slot, so the click event
+  // that follows doesn't also navigate to the detail page.
+  let justDragged = false;
 
   function currentTeam() {
     return teamIds.map((id) => (id ? byId.get(id) : null));
@@ -1017,6 +1020,10 @@
         class: classes.join(' '),
         'data-slot-index': String(index),
         onpointerdown: startDrag(index),
+        onclick: () => {
+          if (justDragged) { justDragged = false; return; }
+          location.hash = '#pokemon-' + p.id;
+        },
       }, [
         el('button', { class: 'team-slot-remove', 'aria-label': 'Remove ' + p.name, onclick: (e) => { e.stopPropagation(); removeFromSlot(index); } }, [document.createTextNode('×')]),
         imgFor(p.id),
@@ -1161,10 +1168,13 @@
   function endDrag() {
     const d = dragState;
     dragState = { index: null, overIndex: null, moved: false, startX: 0, startY: 0 };
-    if (d.moved && d.overIndex !== null && d.overIndex !== d.index) {
-      swapSlots(d.index, d.overIndex);
-    } else if (d.moved) {
-      updateTeamRoster();
+    if (d.moved) {
+      justDragged = true;
+      if (d.overIndex !== null && d.overIndex !== d.index) {
+        swapSlots(d.index, d.overIndex);
+      } else {
+        updateTeamRoster();
+      }
     }
   }
   window.addEventListener('pointerup', endDrag);

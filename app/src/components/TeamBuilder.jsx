@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import TypeBadge from './TypeBadge'
 import { ALL_TYPES } from '../typeColors'
 
@@ -27,6 +28,7 @@ function saveTeam(ids) {
 }
 
 export default function TeamBuilder({ pokemonList }) {
+  const navigate = useNavigate()
   const [teamIds, setTeamIds] = useState(loadTeam)
   const [activeSlot, setActiveSlot] = useState(null)
   const [search, setSearch] = useState('')
@@ -34,6 +36,10 @@ export default function TeamBuilder({ pokemonList }) {
   const [dragOverIndex, setDragOverIndex] = useState(null)
   const pickerRef = useRef(null)
   const dragRef = useRef({ index: null, overIndex: null, moved: false, startX: 0, startY: 0 })
+  // Set on pointerup when a drag actually moved a slot, so the click event
+  // that follows doesn't also navigate to the detail page - reset as soon
+  // as that click is swallowed.
+  const justDraggedRef = useRef(false)
 
   useEffect(() => {
     saveTeam(teamIds)
@@ -86,8 +92,11 @@ export default function TeamBuilder({ pokemonList }) {
     }
     function onUp() {
       const d = dragRef.current
-      if (d.moved && d.overIndex !== null && d.overIndex !== d.index) {
-        swapSlots(d.index, d.overIndex)
+      if (d.moved) {
+        justDraggedRef.current = true
+        if (d.overIndex !== null && d.overIndex !== d.index) {
+          swapSlots(d.index, d.overIndex)
+        }
       }
       dragRef.current = { index: null, overIndex: null, moved: false, startX: 0, startY: 0 }
       setDragIndex(null)
@@ -189,10 +198,20 @@ export default function TeamBuilder({ pokemonList }) {
                 className={slotClasses.join(' ')}
                 data-slot-index={i}
                 onPointerDown={startDrag(i)}
+                onClick={() => {
+                  if (justDraggedRef.current) {
+                    justDraggedRef.current = false
+                    return
+                  }
+                  navigate(`/pokemon/${p.id}`)
+                }}
               >
                 <button
                   className="team-slot-remove"
-                  onClick={() => removeFromSlot(i)}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    removeFromSlot(i)
+                  }}
                   aria-label={`Remove ${p.name}`}
                 >
                   ×
