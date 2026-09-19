@@ -275,10 +275,36 @@
   color: var(--text);
 }
 
-.detail-info h1 {
+.detail-name-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   margin: 2px 0 12px;
+}
+
+.detail-info h1 {
+  margin: 0;
   font-size: 30px;
   text-transform: capitalize;
+}
+
+.cry-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border: none;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.cry-button:hover {
+  opacity: 0.9;
 }
 
 .detail-facts {
@@ -306,6 +332,11 @@
   gap: 8px;
 }
 
+.ability-badge-wrap {
+  position: relative;
+  display: inline-block;
+}
+
 .ability-badge {
   display: inline-block;
   font-family: var(--font-body);
@@ -316,12 +347,36 @@
   border: 2px solid var(--shell-line);
   padding: 4px 12px;
   border-radius: 999px;
+  cursor: pointer;
+}
+
+.ability-badge:hover {
+  border-color: var(--accent);
 }
 
 .ability-hidden-tag {
   font-weight: 400;
   opacity: 0.7;
   font-size: 12px;
+}
+
+.ability-tooltip {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  max-width: 260px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-h);
+  background: var(--card-bg);
+  border: 2px solid var(--shell-line);
+  border-radius: 10px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .stat-bars {

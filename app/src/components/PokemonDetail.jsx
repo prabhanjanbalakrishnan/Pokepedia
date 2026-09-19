@@ -1,6 +1,8 @@
+import { useRef } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import TypeBadge from './TypeBadge'
 import RarityBadge from './RarityBadge'
+import AbilityBadge from './AbilityBadge'
 import EvolutionChain from './EvolutionChain'
 
 export default function PokemonDetail({ pokemonList }) {
@@ -8,6 +10,13 @@ export default function PokemonDetail({ pokemonList }) {
   const pokemon = pokemonList.find((p) => p.id === Number(id))
   const knownIds = new Set(pokemonList.map((p) => p.id))
   const nameById = new Map(pokemonList.map((p) => [p.id, p.name]))
+  const audioRef = useRef(null)
+
+  function playCry() {
+    if (!audioRef.current) return
+    audioRef.current.currentTime = 0
+    audioRef.current.play()
+  }
 
   if (!pokemon) {
     return (
@@ -35,7 +44,22 @@ export default function PokemonDetail({ pokemonList }) {
           <img src={pokemon.image} alt={pokemon.name} className="detail-image" />
           <div className="detail-info">
             <span className="detail-id">#{String(pokemon.id).padStart(3, '0')}</span>
-            <h1>{pokemon.name}</h1>
+            <div className="detail-name-row">
+              <h1>{pokemon.name}</h1>
+              {pokemon.cryUrl && (
+                <>
+                  <button
+                    type="button"
+                    className="cry-button"
+                    onClick={playCry}
+                    aria-label={`Play ${pokemon.name}'s cry`}
+                  >
+                    🔊 Cry
+                  </button>
+                  <audio ref={audioRef} src={pokemon.cryUrl} preload="none" />
+                </>
+              )}
+            </div>
             <div className="type-badge-row">
               {pokemon.types.map((t) => (
                 <TypeBadge key={t} type={t} />
@@ -64,10 +88,7 @@ export default function PokemonDetail({ pokemonList }) {
           <h2>Abilities</h2>
           <div className="ability-badge-row">
             {pokemon.abilities.map((a) => (
-              <span key={a.name} className="ability-badge">
-                {a.name}
-                {a.hidden && <span className="ability-hidden-tag"> (Hidden)</span>}
-              </span>
+              <AbilityBadge key={a.name} ability={a} />
             ))}
           </div>
         </section>

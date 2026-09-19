@@ -355,6 +355,8 @@
 
   .ability-badges { display: flex; flex-wrap: wrap; gap: 8px; }
 
+  .ability-badge-wrap { position: relative; display: inline-block; }
+
   .ability-badge {
     display: inline-block;
     font-family: var(--font-body);
@@ -365,9 +367,37 @@
     border: 2px solid var(--shell-line);
     padding: 4px 12px;
     border-radius: 999px;
+    cursor: pointer;
   }
 
+  .ability-badge:hover { border-color: var(--accent); }
+
   .ability-hidden-tag { font-weight: 400; opacity: 0.7; font-size: 12px; }
+
+  .ability-tooltip {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    z-index: 5;
+    width: max-content;
+    max-width: 260px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--ink);
+    background: var(--card-bg);
+    border: 2px solid var(--shell-line);
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .ability-badge-wrap:hover .ability-tooltip,
+  .ability-badge-wrap.pinned .ability-tooltip {
+    display: block;
+  }
 
   .stat-bars { display: flex; flex-direction: column; gap: 8px; }
 
@@ -683,6 +713,24 @@
     return el('span', { class: 'type-badge', style: `background:${TYPE_COLORS[t] || '#777'}` }, [document.createTextNode(label)]);
   }
 
+  // Description shows on hover via CSS (:hover) and stays shown on tap by
+  // toggling a "pinned" class, so it works on touch devices too.
+  function abilityBadgeEl(a) {
+    const wrap = el('span', { class: 'ability-badge-wrap' });
+    wrap.appendChild(el('button', {
+      type: 'button',
+      class: 'ability-badge',
+      onclick: () => wrap.classList.toggle('pinned'),
+    }, [
+      document.createTextNode(a.name),
+      ...(a.hidden ? [el('span', { class: 'ability-hidden-tag' }, [document.createTextNode(' (Hidden)')])] : []),
+    ]));
+    if (a.description) {
+      wrap.appendChild(el('span', { class: 'ability-tooltip', role: 'tooltip' }, [document.createTextNode(a.description)]));
+    }
+    return wrap;
+  }
+
   function card(p) {
     return el('div', { class: 'card', tabindex: '0', role: 'button', 'aria-label': p.name,
       onclick: () => { location.hash = '#pokemon-' + p.id; },
@@ -841,10 +889,7 @@
 
     const abilitiesSection = el('div', { class: 'evo-section' }, [
       el('h3', {}, [document.createTextNode('Abilities')]),
-      el('div', { class: 'ability-badges' }, p.abilities.map((a) => el('span', { class: 'ability-badge' }, [
-        document.createTextNode(a.name),
-        ...(a.hidden ? [el('span', { class: 'ability-hidden-tag' }, [document.createTextNode(' (Hidden)')])] : []),
-      ]))),
+      el('div', { class: 'ability-badges' }, p.abilities.map((a) => abilityBadgeEl(a))),
     ]);
     detail.appendChild(abilitiesSection);
 

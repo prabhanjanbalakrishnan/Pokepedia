@@ -106,6 +106,20 @@ def format_ability_name(slug):
     return slug.replace("-", " ").title()
 
 
+def fetch_ability_description(ability_ref):
+    """ability_ref is a {"name", "url"} pointer from a pokemon's abilities
+    list. Descriptions are fetched (and disk-cached) per ability id, not per
+    Pokemon, since the ~270 abilities across Gen 1-7 are heavily reused."""
+    ability_id = id_from_url(ability_ref["url"])
+    data = fetch_json(ability_ref["url"], f"ability_{ability_id}")
+    entry = next(
+        (e for e in data["effect_entries"] if e["language"]["name"] == "en"), None
+    )
+    if not entry:
+        return ""
+    return entry["short_effect"] or entry["effect"] or ""
+
+
 def extract_details(species, pokemon):
     japanese_name = next(
         (n["name"] for n in species["names"] if n["language"]["name"] == "ja"), ""
@@ -114,10 +128,15 @@ def extract_details(species, pokemon):
         (g["genus"] for g in species["genera"] if g["language"]["name"] == "en"), ""
     )
     abilities = [
-        {"name": format_ability_name(a["ability"]["name"]), "hidden": a["is_hidden"]}
+        {
+            "name": format_ability_name(a["ability"]["name"]),
+            "hidden": a["is_hidden"],
+            "description": fetch_ability_description(a["ability"]),
+        }
         for a in sorted(pokemon["abilities"], key=lambda a: a["slot"])
     ]
     stats = {s["stat"]["name"]: s["base_stat"] for s in pokemon["stats"]}
+    cries = pokemon.get("cries") or {}
     return {
         "japaneseName": japanese_name,
         "classification": classification,
@@ -129,6 +148,7 @@ def extract_details(species, pokemon):
         "specialAttack": stats["special-attack"],
         "specialDefense": stats["special-defense"],
         "speed": stats["speed"],
+        "cryUrl": cries.get("latest") or cries.get("legacy"),
     }
 
 
