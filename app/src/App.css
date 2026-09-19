@@ -83,6 +83,20 @@
   transform: none;
 }
 
+.top-nav-link {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-h);
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.top-nav-link:hover,
+.top-nav-link.active {
+  border-bottom-color: var(--accent);
+}
+
 /* ---------- shared "screen" panel ---------- */
 
 .screen {
@@ -501,6 +515,91 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/* ---------- Abilities directory ---------- */
+
+.abilities-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.abilities-page > h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 8px 0 4px;
+}
+
+.abilities-search {
+  display: block;
+  margin: 16px auto 0;
+  width: 100%;
+  max-width: 320px;
+}
+
+.abilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ability-card {
+  background: var(--card-bg);
+  border: 2px solid var(--shell-line);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.ability-card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ability-card-header h2 {
+  margin: 0;
+  font-size: 17px;
+  color: var(--text-h);
+}
+
+.ability-card-count {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.ability-card-description {
+  margin: 6px 0 10px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.ability-card-pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ability-pokemon-chip {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-h);
+  background: var(--screen);
+  border: 1px solid var(--shell-line);
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.ability-pokemon-chip:hover {
+  border-color: var(--accent);
 }
 
 /* ---------- Team builder ---------- */

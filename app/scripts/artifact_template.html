@@ -473,6 +473,66 @@
     .card { transition: none; }
   }
 
+  /* ---------- abilities directory ---------- */
+
+  .abilities-search {
+    display: block;
+    margin: 16px auto 0;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .abilities-list { display: flex; flex-direction: column; gap: 14px; }
+
+  .ability-card {
+    background: var(--card-bg);
+    border: 2px solid var(--shell-line);
+    border-radius: 12px;
+    padding: 14px 16px;
+  }
+
+  .ability-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .ability-card-header h2 { font-size: 17px; color: var(--ink); }
+
+  .ability-card-count {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+
+  .ability-card-description {
+    margin: 6px 0 10px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--ink-soft);
+  }
+
+  .ability-card-pokemon { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .ability-pokemon-chip {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--screen);
+    border: 1px solid var(--shell-line);
+    padding: 3px 10px;
+    border-radius: 999px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+
+  .ability-pokemon-chip:hover { border-color: var(--accent); }
+
   /* ---------- team builder ---------- */
 
   .team-subtitle {
@@ -657,6 +717,7 @@
 
   <nav class="top-nav">
     <a href="#" class="top-nav-link" data-nav="home">Pok&eacute;dex</a>
+    <a href="#abilities" class="top-nav-link" data-nav="abilities">Abilities</a>
     <a href="#team" class="top-nav-cta" data-nav="team">Build Your Team!</a>
   </nav>
 
@@ -824,6 +885,88 @@
 
     homeMounted = true;
     updateGrid();
+  }
+
+  // Reverse index (ability name -> description + every Pokemon that has it),
+  // built once on first visit and cached - same aggregation pattern as the
+  // team builder's weakness/strength analysis. No pipeline changes needed
+  // since every Pokemon's abilities already carry a description.
+  let abilitiesIndex = null;
+  function buildAbilitiesIndex() {
+    if (abilitiesIndex) return abilitiesIndex;
+    const map = new Map();
+    POKEMON.forEach((p) => {
+      p.abilities.forEach((a) => {
+        if (!map.has(a.name)) map.set(a.name, { name: a.name, description: a.description, pokemon: [] });
+        map.get(a.name).pokemon.push({ id: p.id, name: p.name, hidden: a.hidden });
+      });
+    });
+    abilitiesIndex = [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
+    return abilitiesIndex;
+  }
+
+  let abilitiesMounted = false;
+  let abilitiesListEl = null;
+  let abilitiesCountEl = null;
+  let abilitiesSearchDebounce = null;
+  const abilitiesState = { search: '' };
+
+  function abilityPokemonChip(p) {
+    return el('a', { class: 'ability-pokemon-chip', href: '#pokemon-' + p.id }, [
+      document.createTextNode(p.name),
+      ...(p.hidden ? [el('span', { class: 'ability-hidden-tag' }, [document.createTextNode(' (Hidden)')])] : []),
+    ]);
+  }
+
+  function abilityCard(a) {
+    const children = [
+      el('div', { class: 'ability-card-header' }, [
+        el('h2', {}, [document.createTextNode(a.name)]),
+        el('span', { class: 'ability-card-count' }, [document.createTextNode(a.pokemon.length + ' Pokémon')]),
+      ]),
+    ];
+    if (a.description) {
+      children.push(el('p', { class: 'ability-card-description' }, [document.createTextNode(a.description)]));
+    }
+    children.push(el('div', { class: 'ability-card-pokemon' }, a.pokemon.map((p) => abilityPokemonChip(p))));
+    return el('div', { class: 'ability-card' }, children);
+  }
+
+  function updateAbilitiesList() {
+    const q = abilitiesState.search.trim().toLowerCase();
+    const full = buildAbilitiesIndex();
+    const list = q ? full.filter((a) => a.name.toLowerCase().includes(q)) : full;
+    abilitiesCountEl.textContent = list.length + ' abilities';
+    abilitiesListEl.innerHTML = '';
+    list.forEach((a) => abilitiesListEl.appendChild(abilityCard(a)));
+  }
+
+  function renderAbilities() {
+    if (abilitiesMounted) { updateAbilitiesList(); return; }
+
+    app.innerHTML = '';
+    app.appendChild(el('h1', {}, [document.createTextNode('Abilities')]));
+    app.appendChild(el('p', { class: 'team-subtitle' }, [document.createTextNode('Every ability across Gen I–VII, what it does, and who has it.')]));
+
+    const search = el('input', { type: 'text', placeholder: 'Search abilities...', class: 'abilities-search' });
+    search.value = abilitiesState.search;
+    search.addEventListener('input', (e) => {
+      abilitiesState.search = e.target.value;
+      clearTimeout(abilitiesSearchDebounce);
+      abilitiesSearchDebounce = setTimeout(updateAbilitiesList, 120);
+    });
+    app.appendChild(search);
+
+    abilitiesCountEl = el('p', { class: 'result-count' });
+    app.appendChild(abilitiesCountEl);
+
+    const screen = el('div', { class: 'screen' });
+    abilitiesListEl = el('div', { class: 'abilities-list' });
+    screen.appendChild(abilitiesListEl);
+    app.appendChild(screen);
+
+    abilitiesMounted = true;
+    updateAbilitiesList();
   }
 
   function evoNode(stage) {
@@ -1227,9 +1370,10 @@
 
   function updateNavActive(hash) {
     const isTeam = hash === '#team';
-    const isHome = !isTeam && !hash.startsWith('#pokemon-');
+    const isAbilities = hash === '#abilities';
+    const isHome = !isTeam && !isAbilities && !hash.startsWith('#pokemon-');
     document.querySelectorAll('[data-nav]').forEach((a) => {
-      a.classList.toggle('active', (a.dataset.nav === 'team' && isTeam) || (a.dataset.nav === 'home' && isHome));
+      a.classList.toggle('active', (a.dataset.nav === 'team' && isTeam) || (a.dataset.nav === 'abilities' && isAbilities) || (a.dataset.nav === 'home' && isHome));
     });
   }
 
@@ -1240,13 +1384,20 @@
     if (hash.startsWith('#pokemon-')) {
       homeMounted = false;
       teamMounted = false;
+      abilitiesMounted = false;
       activeSlotIndex = null;
       renderDetail(Number(hash.slice('#pokemon-'.length)));
     } else if (hash === '#team') {
       homeMounted = false;
+      abilitiesMounted = false;
       renderTeam();
+    } else if (hash === '#abilities') {
+      homeMounted = false;
+      teamMounted = false;
+      renderAbilities();
     } else {
       teamMounted = false;
+      abilitiesMounted = false;
       activeSlotIndex = null;
       renderHome();
     }

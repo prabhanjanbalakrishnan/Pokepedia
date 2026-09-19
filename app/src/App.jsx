@@ -3,6 +3,7 @@ import { Routes, Route, NavLink } from 'react-router-dom'
 import Home from './components/Home'
 import PokemonDetail from './components/PokemonDetail'
 import TeamBuilder from './components/TeamBuilder'
+import Abilities from './components/Abilities'
 import './App.css'
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
       <nav className="top-nav">
         <div className="top-nav-links">
           <NavLink to="/" end className="top-nav-brand">Pokepedia</NavLink>
+          <NavLink to="/abilities" className={({ isActive }) => isActive ? 'top-nav-link active' : 'top-nav-link'}>
+            Abilities
+          </NavLink>
           <NavLink to="/team" className={({ isActive }) => isActive ? 'top-nav-cta active' : 'top-nav-cta'}>
             Build Your Team!
           </NavLink>
@@ -33,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home pokemonList={pokemonList} />} />
         <Route path="/pokemon/:id" element={<PokemonDetail pokemonList={pokemonList} />} />
+        <Route path="/abilities" element={<Abilities pokemonList={pokemonList} />} />
         <Route path="/team" element={<TeamBuilder pokemonList={pokemonList} />} />
       </Routes>
     </>
