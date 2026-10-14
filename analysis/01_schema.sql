@@ -49,6 +49,8 @@ CREATE TABLE pokemon_types (
     type_id INTEGER NOT NULL,
     slot INTEGER NOT NULL CHECK (slot IN (1, 2)),
     PRIMARY KEY (pokedex_number, slot),
+    -- the same type can't appear in both slots (blocks the electric/electric duplicates)
+    UNIQUE (pokedex_number, type_id),
     FOREIGN KEY (pokedex_number) REFERENCES pokemon(pokedex_number),
     FOREIGN KEY (type_id) REFERENCES types(type_id)
 );
