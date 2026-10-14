@@ -8,5 +8,8 @@ app/dist/
 app/scripts/cache/
 app/scripts/artifact_data.json
 
+# SQLite databases - rebuilt from pokemon.csv by the scripts in analysis/
+*.db
+
 # OS
 .DS_Store

@@ -33,6 +33,10 @@ The dataset started as a spreadsheet with base stats and type-effectiveness data
 
 API responses are cached to disk, so the pipeline only hits the network once per Pokémon/ability even across reruns. The result is a single JSON file the React app fetches once and filters entirely client-side — no backend, no database, no per-request API calls.
 
+## SQL analysis
+
+The same `pokemon.csv` is also modeled as a normalized SQLite database in [`analysis/`](./analysis/): 7 linked tables built entirely with SQL, including splitting packed ability lists into rows and unpivoting the 18 type-effectiveness columns. Every cleaning decision is written into the load script and every table is checked against an expected row count. See the [analysis README](./analysis/README.md) for the schema, cleaning decisions, data quirks and findings. Six analysis questions (type splits, stat comparisons, per-generation rankings with window functions, CTEs) are answered in [`analysis/04_analysis.sql`](./analysis/04_analysis.sql).
+
 ## Running locally
 
 ```bash
